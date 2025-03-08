@@ -68,6 +68,6 @@ int main()
     // Loop principal
     while (1)
     {
-        exibir_frase_rolagem("TO COM MUITA SARDADE...", cor, pio, sm, intensidade, vel, largura_fonte);
+        exibir_frase_rolagem("BY CARLOS ELIAS", cor, pio, sm, intensidade, vel, largura_fonte);
     }
 }
