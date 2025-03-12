@@ -226,9 +226,20 @@ void concatenar_frase(double *frase[], int tamanho_frase, double frase_concatena
  * @param tamanho_matriz Tamanho da matriz (3 ou 5).
  */
 void exibir_frase_rolagem(const char *texto, RGBColor cor, PIO pio, uint sm, double intensidade, int velocidade, int tamanho_matriz) {
+    // Verifica se o texto é válido
+    if (!texto) {
+        printf("Erro: Texto inválido!\n");
+        return;
+    }
+
     // Cria a lista de frames a partir da string
     double **frase = criar_frase_da_string(texto, tamanho_matriz);
-    int tamanho_frase = strlen(texto) + 2; // Inclui os dois espaços adicionais
+    if (!frase) {
+        printf("Erro ao criar a frase!\n");
+        return;
+    }
+
+    int tamanho_frase = strlen(texto) + 1; // Apenas um espaço adicional no final
 
     // Define o número de colunas por letra com base no tamanho da matriz
     int colunas_por_letra = (tamanho_matriz == 3) ? 3 : 5;
@@ -236,9 +247,16 @@ void exibir_frase_rolagem(const char *texto, RGBColor cor, PIO pio, uint sm, dou
     // Calcula a largura total da frase concatenada
     int largura_frase = colunas_por_letra * tamanho_frase;
 
+    // Verifica se a frase é muito longa
+    if (largura_frase > MAX_COLUNAS) {
+        printf("Erro: Frase muito longa!\n");
+        free(frase);
+        return;
+    }
+
     // Cria o array concatenado da frase
     double frase_concatenada[5][largura_frase]; // 5 linhas, largura variável
-    memset(frase_concatenada, 0, sizeof(frase_concatenada)); // Inicializa com zeros
+    memset(frase_concatenada, 0, sizeof(double) * 5 * largura_frase); // Inicializa com zeros
 
     // Concatena os frames das letras e dos espaços
     for (int i = 0; i < tamanho_frase; i++) {
@@ -267,7 +285,7 @@ void exibir_frase_rolagem(const char *texto, RGBColor cor, PIO pio, uint sm, dou
         }
 
         // Exibe o frame na matriz de LEDs
-        exibir_frame((double *)frame, cor, pio, sm, intensidade);
+        exibir_frame(&frame[0][0], cor, pio, sm, intensidade);
 
         // Verifica se o botão foi pressionado (exemplo)
         if (!gpio_get(JSTICK)) {

@@ -2585,7 +2585,7 @@ LOAD C:/Users/Elias/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/1
                 0x10000100                        __boot2_end__ = .
                 0x00000001                        ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
-.text           0x10000100     0x670c
+.text           0x10000100     0x6734
                 0x10000100                        __logical_binary_start = .
  *(.vectors)
  .vectors       0x10000100       0xd4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_crt0/crt0.S.obj
@@ -2657,661 +2657,661 @@ LOAD C:/Users/Elias/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/1
                 0x100002f4      0x10c CMakeFiles/main.dir/main.c.obj
                 0x100002f4                criar_frase_da_string
  .text.exibir_frase_rolagem
-                0x10000400      0xcf4 CMakeFiles/main.dir/main.c.obj
+                0x10000400      0xd1c CMakeFiles/main.dir/main.c.obj
                 0x10000400                exibir_frase_rolagem
  .text.inicializar_sistema
-                0x100010f4      0x160 CMakeFiles/main.dir/main.c.obj
-                0x100010f4                inicializar_sistema
+                0x1000111c      0x160 CMakeFiles/main.dir/main.c.obj
+                0x1000111c                inicializar_sistema
  .text.startup.main
-                0x10001254       0x98 CMakeFiles/main.dir/main.c.obj
-                0x10001254                main
+                0x1000127c       0x98 CMakeFiles/main.dir/main.c.obj
+                0x1000127c                main
  .text.gpio_set_function
-                0x100012ec       0x34 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x100012ec                gpio_set_function
+                0x10001314       0x34 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x10001314                gpio_set_function
  .text.gpio_set_pulls
-                0x10001320       0x28 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x10001320                gpio_set_pulls
+                0x10001348       0x28 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x10001348                gpio_set_pulls
  .text.gpio_init
-                0x10001348       0x40 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x10001348                gpio_init
+                0x10001370       0x40 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x10001370                gpio_init
  .text.rp2040_chip_version
-                0x10001388        0xc CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2040/pico_platform/platform.c.obj
-                0x10001388                rp2040_chip_version
- .text.panic    0x10001394       0x30 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_platform_panic/panic.c.obj
-                0x10001394                panic
+                0x100013b0        0xc CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2040/pico_platform/platform.c.obj
+                0x100013b0                rp2040_chip_version
+ .text.panic    0x100013bc       0x30 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_platform_panic/panic.c.obj
+                0x100013bc                panic
  .text.hw_claim_lock
-                0x100013c4       0x18 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/common/hardware_claim/claim.c.obj
-                0x100013c4                hw_claim_lock
+                0x100013ec       0x18 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/common/hardware_claim/claim.c.obj
+                0x100013ec                hw_claim_lock
  .text.hw_claim_unlock
-                0x100013dc       0x14 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/common/hardware_claim/claim.c.obj
-                0x100013dc                hw_claim_unlock
+                0x10001404       0x14 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/common/hardware_claim/claim.c.obj
+                0x10001404                hw_claim_unlock
  .text.hw_claim_or_assert
-                0x100013f0       0x44 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/common/hardware_claim/claim.c.obj
-                0x100013f0                hw_claim_or_assert
+                0x10001418       0x44 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/common/hardware_claim/claim.c.obj
+                0x10001418                hw_claim_or_assert
  .text.hw_claim_unused_from_range
-                0x10001434       0x88 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/common/hardware_claim/claim.c.obj
-                0x10001434                hw_claim_unused_from_range
+                0x1000145c       0x88 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/common/hardware_claim/claim.c.obj
+                0x1000145c                hw_claim_unused_from_range
  .text.next_striped_spin_lock_num
-                0x100014bc       0x18 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_sync/sync.c.obj
-                0x100014bc                next_striped_spin_lock_num
+                0x100014e4       0x18 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_sync/sync.c.obj
+                0x100014e4                next_striped_spin_lock_num
  .text.spin_lock_claim_unused
-                0x100014d4       0x24 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_sync/sync.c.obj
-                0x100014d4                spin_lock_claim_unused
+                0x100014fc       0x24 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_sync/sync.c.obj
+                0x100014fc                spin_lock_claim_unused
  .text.spin_locks_reset
-                0x100014f8       0x1c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
-                0x100014f8                spin_locks_reset
+                0x10001520       0x1c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
+                0x10001520                spin_locks_reset
  .text.runtime_init_per_core_irq_priorities
-                0x10001514       0x24 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_irq/irq.c.obj
-                0x10001514                runtime_init_per_core_irq_priorities
+                0x1000153c       0x24 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_irq/irq.c.obj
+                0x1000153c                runtime_init_per_core_irq_priorities
  .text.irq_set_enabled
-                0x10001538       0x24 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_irq/irq.c.obj
-                0x10001538                irq_set_enabled
+                0x10001560       0x24 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_irq/irq.c.obj
+                0x10001560                irq_set_enabled
  .text.irq_is_enabled
-                0x1000155c       0x18 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_irq/irq.c.obj
-                0x1000155c                irq_is_enabled
+                0x10001584       0x18 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_irq/irq.c.obj
+                0x10001584                irq_is_enabled
  .text.irq_set_pending
-                0x10001574       0x10 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_irq/irq.c.obj
-                0x10001574                irq_set_pending
+                0x1000159c       0x10 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_irq/irq.c.obj
+                0x1000159c                irq_set_pending
  .text.irq_has_shared_handler
-                0x10001584       0x24 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_irq/irq.c.obj
-                0x10001584                irq_has_shared_handler
+                0x100015ac       0x24 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_irq/irq.c.obj
+                0x100015ac                irq_has_shared_handler
  .text.irq_set_exclusive_handler
-                0x100015a8       0x54 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_irq/irq.c.obj
-                0x100015a8                irq_set_exclusive_handler
+                0x100015d0       0x54 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_irq/irq.c.obj
+                0x100015d0                irq_set_exclusive_handler
  .text.irq_add_shared_handler
-                0x100015fc      0x1f4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_irq/irq.c.obj
-                0x100015fc                irq_add_shared_handler
+                0x10001624      0x1f4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_irq/irq.c.obj
+                0x10001624                irq_add_shared_handler
  .text.irq_add_tail_to_free_list
-                0x100017f0       0xb4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_irq/irq.c.obj
-                0x100017f0                irq_add_tail_to_free_list
+                0x10001818       0xb4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_irq/irq.c.obj
+                0x10001818                irq_add_tail_to_free_list
  .text.user_irq_claim_unused
-                0x100018a4       0x2c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_irq/irq.c.obj
-                0x100018a4                user_irq_claim_unused
+                0x100018cc       0x2c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_irq/irq.c.obj
+                0x100018cc                user_irq_claim_unused
  .text.lock_init
-                0x100018d0       0x10 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/common/pico_sync/lock_core.c.obj
-                0x100018d0                lock_init
+                0x100018f8       0x10 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/common/pico_sync/lock_core.c.obj
+                0x100018f8                lock_init
  .text.runtime_init_mutex
-                0x100018e0       0x50 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/common/pico_sync/mutex.c.obj
-                0x100018e0                runtime_init_mutex
+                0x10001908       0x50 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/common/pico_sync/mutex.c.obj
+                0x10001908                runtime_init_mutex
  .text.mutex_init
-                0x10001930       0x1c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/common/pico_sync/mutex.c.obj
-                0x10001930                mutex_init
+                0x10001958       0x1c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/common/pico_sync/mutex.c.obj
+                0x10001958                mutex_init
  .text.critical_section_init
-                0x1000194c       0x1c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/common/pico_sync/critical_section.c.obj
-                0x1000194c                critical_section_init
+                0x10001974       0x1c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/common/pico_sync/critical_section.c.obj
+                0x10001974                critical_section_init
  .text.critical_section_init_with_lock_num
-                0x10001968       0x14 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/common/pico_sync/critical_section.c.obj
-                0x10001968                critical_section_init_with_lock_num
+                0x10001990       0x14 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/common/pico_sync/critical_section.c.obj
+                0x10001990                critical_section_init_with_lock_num
  .text.sleep_until_callback
-                0x1000197c       0x30 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/common/pico_time/time.c.obj
+                0x100019a4       0x30 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/common/pico_time/time.c.obj
  .text.alarm_pool_irq_handler
-                0x100019ac      0x300 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/common/pico_time/time.c.obj
+                0x100019d4      0x300 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/common/pico_time/time.c.obj
  .text.runtime_init_default_alarm_pool
-                0x10001cac       0xdc CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/common/pico_time/time.c.obj
-                0x10001cac                runtime_init_default_alarm_pool
+                0x10001cd4       0xdc CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/common/pico_time/time.c.obj
+                0x10001cd4                runtime_init_default_alarm_pool
  .text.alarm_pool_get_default
-                0x10001d88        0x8 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/common/pico_time/time.c.obj
-                0x10001d88                alarm_pool_get_default
+                0x10001db0        0x8 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/common/pico_time/time.c.obj
+                0x10001db0                alarm_pool_get_default
  .text.alarm_pool_add_alarm_at
-                0x10001d90       0xd0 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/common/pico_time/time.c.obj
-                0x10001d90                alarm_pool_add_alarm_at
+                0x10001db8       0xd0 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/common/pico_time/time.c.obj
+                0x10001db8                alarm_pool_add_alarm_at
  .text.alarm_pool_add_alarm_at_force_in_context
-                0x10001e60       0xb0 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/common/pico_time/time.c.obj
-                0x10001e60                alarm_pool_add_alarm_at_force_in_context
+                0x10001e88       0xb0 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/common/pico_time/time.c.obj
+                0x10001e88                alarm_pool_add_alarm_at_force_in_context
  .text.alarm_pool_cancel_alarm
-                0x10001f10       0x74 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/common/pico_time/time.c.obj
-                0x10001f10                alarm_pool_cancel_alarm
+                0x10001f38       0x74 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/common/pico_time/time.c.obj
+                0x10001f38                alarm_pool_cancel_alarm
  .text.alarm_pool_core_num
-                0x10001f84        0x4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/common/pico_time/time.c.obj
-                0x10001f84                alarm_pool_core_num
+                0x10001fac        0x4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/common/pico_time/time.c.obj
+                0x10001fac                alarm_pool_core_num
  .text.sleep_ms
-                0x10001f88       0xfc CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/common/pico_time/time.c.obj
-                0x10001f88                sleep_ms
+                0x10001fb0       0xfc CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/common/pico_time/time.c.obj
+                0x10001fb0                sleep_ms
  .text.best_effort_wfe_or_timeout
-                0x10002084      0x10c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/common/pico_time/time.c.obj
-                0x10002084                best_effort_wfe_or_timeout
+                0x100020ac      0x10c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/common/pico_time/time.c.obj
+                0x100020ac                best_effort_wfe_or_timeout
  .text.timer_hardware_alarm_claim
-                0x10002190       0x14 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_timer/timer.c.obj
-                0x10002190                timer_hardware_alarm_claim
+                0x100021b8       0x14 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_timer/timer.c.obj
+                0x100021b8                timer_hardware_alarm_claim
  .text.timer_time_us_64
-                0x100021a4       0x10 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_timer/timer.c.obj
-                0x100021a4                timer_time_us_64
+                0x100021cc       0x10 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_timer/timer.c.obj
+                0x100021cc                timer_time_us_64
  .text.time_us_64
-                0x100021b4       0x14 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_timer/timer.c.obj
-                0x100021b4                time_us_64
+                0x100021dc       0x14 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_timer/timer.c.obj
+                0x100021dc                time_us_64
  .text.busy_wait_until
-                0x100021c8       0x20 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_timer/timer.c.obj
-                0x100021c8                busy_wait_until
+                0x100021f0       0x20 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_timer/timer.c.obj
+                0x100021f0                busy_wait_until
  .text.clock_configure_int_divider
-                0x100021e8       0xf4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x100021e8                clock_configure_int_divider
+                0x10002210       0xf4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x10002210                clock_configure_int_divider
  .text.clock_configure_undivided
-                0x100022dc       0xe8 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x100022dc                clock_configure_undivided
+                0x10002304       0xe8 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x10002304                clock_configure_undivided
  .text.clock_get_hz
-                0x100023c4        0xc CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x100023c4                clock_get_hz
+                0x100023ec        0xc CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x100023ec                clock_get_hz
  .text.set_sys_clock_pll
-                0x100023d0      0x1b8 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x100023d0                set_sys_clock_pll
+                0x100023f8      0x1b8 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x100023f8                set_sys_clock_pll
  .text.check_sys_clock_khz
-                0x10002588      0x26c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x10002588                check_sys_clock_khz
+                0x100025b0      0x26c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x100025b0                check_sys_clock_khz
  .text.pll_init
-                0x100027f4       0xa4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_pll/pll.c.obj
-                0x100027f4                pll_init
+                0x1000281c       0xa4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_pll/pll.c.obj
+                0x1000281c                pll_init
  .text.watchdog_reboot
-                0x10002898       0x9c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_watchdog/watchdog.c.obj
-                0x10002898                watchdog_reboot
+                0x100028c0       0x9c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_watchdog/watchdog.c.obj
+                0x100028c0                watchdog_reboot
  .text.tick_start
-                0x10002934       0x10 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_ticks/ticks.c.obj
-                0x10002934                tick_start
+                0x1000295c       0x10 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_ticks/ticks.c.obj
+                0x1000295c                tick_start
  .text.rom_func_lookup
-                0x10002944       0x10 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x10002944                rom_func_lookup
+                0x1000296c       0x10 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x1000296c                rom_func_lookup
  .text.rom_data_lookup
-                0x10002954       0x10 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x10002954                rom_data_lookup
+                0x1000297c       0x10 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x1000297c                rom_data_lookup
  .text.rom_funcs_lookup
-                0x10002964       0x44 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x10002964                rom_funcs_lookup
+                0x1000298c       0x44 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x1000298c                rom_funcs_lookup
  .text.rom_reset_usb_boot
-                0x100029a8       0x1c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x100029a8                rom_reset_usb_boot
+                0x100029d0       0x1c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x100029d0                rom_reset_usb_boot
  .text.rom_reset_usb_boot_extra
-                0x100029c4       0x24 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x100029c4                rom_reset_usb_boot_extra
+                0x100029ec       0x24 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x100029ec                rom_reset_usb_boot_extra
  .text.xosc_init
-                0x100029e8       0x28 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_xosc/xosc.c.obj
-                0x100029e8                xosc_init
+                0x10002a10       0x28 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_xosc/xosc.c.obj
+                0x10002a10                xosc_init
  .text.first_per_core_initializer
-                0x10002a10        0x4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10002a38        0x4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime/runtime.c.obj
  .text.hard_assertion_failure
-                0x10002a14        0xc CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime/runtime.c.obj
-                0x10002a14                hard_assertion_failure
+                0x10002a3c        0xc CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10002a3c                hard_assertion_failure
  .text.runtime_run_initializers
-                0x10002a20       0x28 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime/runtime.c.obj
-                0x10002a20                runtime_run_initializers
+                0x10002a48       0x28 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10002a48                runtime_run_initializers
  .text.runtime_init_early_resets
-                0x10002a48       0x2c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime_init/runtime_init.c.obj
-                0x10002a48                runtime_init_early_resets
+                0x10002a70       0x2c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+                0x10002a70                runtime_init_early_resets
  .text.runtime_init_usb_power_down
-                0x10002a74       0x1c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime_init/runtime_init.c.obj
-                0x10002a74                runtime_init_usb_power_down
+                0x10002a9c       0x1c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+                0x10002a9c                runtime_init_usb_power_down
  .text.runtime_init_post_clock_resets
-                0x10002a90       0x20 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime_init/runtime_init.c.obj
-                0x10002a90                runtime_init_post_clock_resets
+                0x10002ab8       0x20 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+                0x10002ab8                runtime_init_post_clock_resets
  .text.runtime_init_rp2040_gpio_ie_disable
-                0x10002ab0       0x14 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime_init/runtime_init.c.obj
-                0x10002ab0                runtime_init_rp2040_gpio_ie_disable
+                0x10002ad8       0x14 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+                0x10002ad8                runtime_init_rp2040_gpio_ie_disable
  .text.runtime_init_spin_locks_reset
-                0x10002ac4        0x8 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime_init/runtime_init.c.obj
-                0x10002ac4                runtime_init_spin_locks_reset
+                0x10002aec        0x8 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+                0x10002aec                runtime_init_spin_locks_reset
  .text.runtime_init_install_ram_vector_table
-                0x10002acc       0x1c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime_init/runtime_init.c.obj
-                0x10002acc                runtime_init_install_ram_vector_table
+                0x10002af4       0x1c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+                0x10002af4                runtime_init_install_ram_vector_table
  .text.runtime_init_clocks
-                0x10002ae8       0xd8 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
-                0x10002ae8                runtime_init_clocks
- .text          0x10002bc0       0x10 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+                0x10002b10       0xd8 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
+                0x10002b10                runtime_init_clocks
+ .text          0x10002be8       0x10 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
  .text.__wrap___aeabi_idiv
-                0x10002bd0       0x50 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_divider/divider_hardware.S.obj
-                0x10002bd0                __wrap___aeabi_idivmod
-                0x10002bd0                divmod_s32s32
-                0x10002bd0                div_s32s32
-                0x10002bd0                __wrap___aeabi_idiv
-                0x10002bd8                divmod_s32s32_unsafe
-                0x10002c04                divmod_s32s32_savestate
+                0x10002bf8       0x50 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_divider/divider_hardware.S.obj
+                0x10002bf8                __wrap___aeabi_idivmod
+                0x10002bf8                divmod_s32s32
+                0x10002bf8                div_s32s32
+                0x10002bf8                __wrap___aeabi_idiv
+                0x10002c00                divmod_s32s32_unsafe
+                0x10002c2c                divmod_s32s32_savestate
  .text.__wrap___aeabi_uidiv
-                0x10002c20       0x4c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_divider/divider_hardware.S.obj
-                0x10002c20                __wrap___aeabi_uidiv
-                0x10002c20                __wrap___aeabi_uidivmod
-                0x10002c20                div_u32u32
-                0x10002c20                divmod_u32u32
-                0x10002c28                divmod_u32u32_unsafe
-                0x10002c50                divmod_u32u32_savestate
+                0x10002c48       0x4c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_divider/divider_hardware.S.obj
+                0x10002c48                __wrap___aeabi_uidiv
+                0x10002c48                __wrap___aeabi_uidivmod
+                0x10002c48                div_u32u32
+                0x10002c48                divmod_u32u32
+                0x10002c50                divmod_u32u32_unsafe
+                0x10002c78                divmod_u32u32_savestate
  .text.__wrap___aeabi_darithmetic
-                0x10002c6c       0x60 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
-                0x10002c6c                __wrap___aeabi_drsub
-                0x10002c72                __wrap___aeabi_dsub
-                0x10002c7c                __wrap___aeabi_dadd
-                0x10002c86                __wrap___aeabi_ddiv
-                0x10002cba                __wrap___aeabi_dmul
+                0x10002c94       0x60 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+                0x10002c94                __wrap___aeabi_drsub
+                0x10002c9a                __wrap___aeabi_dsub
+                0x10002ca4                __wrap___aeabi_dadd
+                0x10002cae                __wrap___aeabi_ddiv
+                0x10002ce2                __wrap___aeabi_dmul
  .text.__wrap___aeabi_cdcmple
-                0x10002ccc       0x6c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
-                0x10002ccc                __wrap___aeabi_cdrcmple
-                0x10002cdc                __wrap___aeabi_cdcmpeq
-                0x10002cdc                __wrap___aeabi_cdcmple
+                0x10002cf4       0x6c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+                0x10002cf4                __wrap___aeabi_cdrcmple
+                0x10002d04                __wrap___aeabi_cdcmpeq
+                0x10002d04                __wrap___aeabi_cdcmple
  .text.__wrap___aeabi_dcmplt
-                0x10002d38        0xc CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
-                0x10002d38                __wrap___aeabi_dcmplt
+                0x10002d60        0xc CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+                0x10002d60                __wrap___aeabi_dcmplt
  .text.__wrap___aeabi_dcmpgt
-                0x10002d44        0xa CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
-                0x10002d44                __wrap___aeabi_dcmpgt
- *fill*         0x10002d4e        0x2 
+                0x10002d6c        0xa CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+                0x10002d6c                __wrap___aeabi_dcmpgt
+ *fill*         0x10002d76        0x2 
  .text.__wrap___aeabi_i2d
-                0x10002d50       0x38 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
-                0x10002d50                uint2double
-                0x10002d50                __wrap___aeabi_ui2d
-                0x10002d58                int2double
-                0x10002d58                __wrap___aeabi_i2d
+                0x10002d78       0x38 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+                0x10002d78                uint2double
+                0x10002d78                __wrap___aeabi_ui2d
+                0x10002d80                int2double
+                0x10002d80                __wrap___aeabi_i2d
  .text.__wrap___aeabi_d2uiz
-                0x10002d88       0x10 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
-                0x10002d88                double2uint
-                0x10002d88                __wrap___aeabi_d2uiz
-                0x10002d88                double2uint_z
+                0x10002db0       0x10 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+                0x10002db0                double2uint
+                0x10002db0                __wrap___aeabi_d2uiz
+                0x10002db0                double2uint_z
  .text.__wrap___aeabi_d2f
-                0x10002d98       0x10 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
-                0x10002d98                __wrap___aeabi_d2f
+                0x10002dc0       0x10 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+                0x10002dc0                __wrap___aeabi_d2f
  .text.missing_double_func_shim
-                0x10002da8        0xc CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
+                0x10002dd0        0xc CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
  .text.__aeabi_double_init
-                0x10002db4       0xa0 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
-                0x10002db4                __aeabi_double_init
+                0x10002ddc       0xa0 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
+                0x10002ddc                __aeabi_double_init
  .text.double_table_shim_on_use_helper
-                0x10002e54       0x2c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
-                0x10002e54                double_table_shim_on_use_helper
+                0x10002e7c       0x2c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
+                0x10002e7c                double_table_shim_on_use_helper
  .text.__aeabi_lmul
-                0x10002e80       0x32 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
-                0x10002e80                __wrap___aeabi_lmul
- *fill*         0x10002eb2        0x2 
+                0x10002ea8       0x32 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+                0x10002ea8                __wrap___aeabi_lmul
+ *fill*         0x10002eda        0x2 
  .text.__wrap___aeabi_farithmetic
-                0x10002eb4       0x48 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
-                0x10002eb4                __wrap___aeabi_frsub
-                0x10002eba                __wrap___aeabi_fsub
-                0x10002ec0                __wrap___aeabi_fadd
-                0x10002ec6                __wrap___aeabi_fdiv
-                0x10002eee                __wrap___aeabi_fmul
+                0x10002edc       0x48 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
+                0x10002edc                __wrap___aeabi_frsub
+                0x10002ee2                __wrap___aeabi_fsub
+                0x10002ee8                __wrap___aeabi_fadd
+                0x10002eee                __wrap___aeabi_fdiv
+                0x10002f16                __wrap___aeabi_fmul
  .text.__wrap___aeabi_ui2f
-                0x10002efc        0xa CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
-                0x10002efc                __wrap___aeabi_ui2f
-                0x10002efc                uint2float
- *fill*         0x10002f06        0x2 
+                0x10002f24        0xa CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
+                0x10002f24                __wrap___aeabi_ui2f
+                0x10002f24                uint2float
+ *fill*         0x10002f2e        0x2 
  .text.__wrap___aeabi_i2f
-                0x10002f08       0x44 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
-                0x10002f08                __wrap___aeabi_i2f
-                0x10002f08                int2float
+                0x10002f30       0x44 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
+                0x10002f30                __wrap___aeabi_i2f
+                0x10002f30                int2float
  .text.__wrap___aeabi_f2uiz
-                0x10002f4c        0xc CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
-                0x10002f4c                float2uint_z
-                0x10002f4c                __wrap___aeabi_f2uiz
-                0x10002f4c                float2uint
+                0x10002f74        0xc CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
+                0x10002f74                float2uint_z
+                0x10002f74                __wrap___aeabi_f2uiz
+                0x10002f74                float2uint
  .text.missing_float_func_shim
-                0x10002f58        0xc CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
+                0x10002f80        0xc CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
  .text.__aeabi_float_init
-                0x10002f64       0x5c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
-                0x10002f64                __aeabi_float_init
+                0x10002f8c       0x5c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
+                0x10002f8c                __aeabi_float_init
  .text.__wrap_malloc
-                0x10002fc0       0x24 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_malloc/malloc.c.obj
-                0x10002fc0                __wrap_malloc
+                0x10002fe8       0x24 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_malloc/malloc.c.obj
+                0x10002fe8                __wrap_malloc
  .text.__wrap_free
-                0x10002fe4        0x8 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_malloc/malloc.c.obj
-                0x10002fe4                __wrap_free
- .text          0x10002fec       0x10 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x10002fec                __aeabi_mem_init
- .text.memset   0x10002ffc        0xc CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x10002ffc                __wrap_memset
- .text.memcpy   0x10003008        0xc CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x10003008                __wrap_memcpy
-                0x10003008                __wrap___aeabi_memcpy
+                0x1000300c        0x8 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_malloc/malloc.c.obj
+                0x1000300c                __wrap_free
+ .text          0x10003014       0x10 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x10003014                __aeabi_mem_init
+ .text.memset   0x10003024        0xc CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x10003024                __wrap_memset
+ .text.memcpy   0x10003030        0xc CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x10003030                __wrap_memcpy
+                0x10003030                __wrap___aeabi_memcpy
  .text._out_char
-                0x10003014       0x10 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_printf/printf.c.obj
+                0x1000303c       0x10 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_printf/printf.c.obj
  .text.weak_raw_vprintf
-                0x10003024       0x30 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_printf/printf.c.obj
-                0x10003024                weak_raw_vprintf
- .text._exit    0x10003054        0x4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
-                0x10003054                _exit
- .text._sbrk    0x10003058       0x34 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
-                0x10003058                _sbrk
- .text.exit     0x1000308c        0x8 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
-                0x1000308c                exit
+                0x1000304c       0x30 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_printf/printf.c.obj
+                0x1000304c                weak_raw_vprintf
+ .text._exit    0x1000307c        0x4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
+                0x1000307c                _exit
+ .text._sbrk    0x10003080       0x34 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
+                0x10003080                _sbrk
+ .text.exit     0x100030b4        0x8 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
+                0x100030b4                exit
  .text.runtime_init
-                0x10003094       0x2c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
-                0x10003094                runtime_init
+                0x100030bc       0x2c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
+                0x100030bc                runtime_init
  .text.stdio_out_chars_no_crlf
-                0x100030c0       0x10 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio/stdio.c.obj
+                0x100030e8       0x10 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_out_chars_crlf
-                0x100030d0       0xb0 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio/stdio.c.obj
+                0x100030f8       0xb0 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_put_string
-                0x10003180       0xfc CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10003180                stdio_put_string
+                0x100031a8       0xfc CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio/stdio.c.obj
+                0x100031a8                stdio_put_string
  .text.stdio_set_driver_enabled
-                0x1000327c       0x30 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio/stdio.c.obj
-                0x1000327c                stdio_set_driver_enabled
+                0x100032a4       0x30 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio/stdio.c.obj
+                0x100032a4                stdio_set_driver_enabled
  .text.stdio_init_all
-                0x100032ac        0x8 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio/stdio.c.obj
-                0x100032ac                stdio_init_all
+                0x100032d4        0x8 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio/stdio.c.obj
+                0x100032d4                stdio_init_all
  .text.__wrap_putchar
-                0x100032b4       0x94 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio/stdio.c.obj
-                0x100032b4                __wrap_putchar
-                0x100032b4                stdio_putchar
+                0x100032dc       0x94 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio/stdio.c.obj
+                0x100032dc                __wrap_putchar
+                0x100032dc                stdio_putchar
  .text.__wrap_puts
-                0x10003348       0x3c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10003348                stdio_puts
-                0x10003348                __wrap_puts
+                0x10003370       0x3c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10003370                stdio_puts
+                0x10003370                __wrap_puts
  .text.resetd_init
-                0x10003384        0x4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x100033ac        0x4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .text.resetd_reset
-                0x10003388        0xc CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x100033b0        0xc CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .text.resetd_open
-                0x10003394       0x28 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x100033bc       0x28 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .text.resetd_xfer_cb
-                0x100033bc        0x4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x100033e4        0x4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .text.resetd_control_xfer_cb
-                0x100033c0       0x54 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x100033e8       0x54 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .text.tud_descriptor_bos_cb
-                0x10003414        0x8 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
-                0x10003414                tud_descriptor_bos_cb
+                0x1000343c        0x8 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x1000343c                tud_descriptor_bos_cb
  .text.tud_vendor_control_xfer_cb
-                0x1000341c       0x34 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
-                0x1000341c                tud_vendor_control_xfer_cb
+                0x10003444       0x34 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x10003444                tud_vendor_control_xfer_cb
  .text.usbd_app_driver_get_cb
-                0x10003450        0xc CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
-                0x10003450                usbd_app_driver_get_cb
+                0x10003478        0xc CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x10003478                usbd_app_driver_get_cb
  .text.tud_cdc_line_coding_cb
-                0x1000345c       0x2c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
-                0x1000345c                tud_cdc_line_coding_cb
+                0x10003484       0x2c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x10003484                tud_cdc_line_coding_cb
  .text.stdio_usb_set_chars_available_callback
-                0x10003488       0x14 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-                0x10003488                stdio_usb_set_chars_available_callback
- .text.usb_irq  0x1000349c       0x10 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x100034b0       0x14 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x100034b0                stdio_usb_set_chars_available_callback
+ .text.usb_irq  0x100034c4       0x10 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .text.timer_task
-                0x100034ac       0x64 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x100034d4       0x64 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .text.stdio_usb_in_chars
-                0x10003510       0x8c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-                0x10003510                stdio_usb_in_chars
+                0x10003538       0x8c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x10003538                stdio_usb_in_chars
  .text.stdio_usb_out_flush
-                0x1000359c       0x4c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x100035c4       0x4c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .text.stdio_usb_out_chars
-                0x100035e8      0x100 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x10003610      0x100 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .text.low_priority_worker_irq
-                0x100036e8       0xc8 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x10003710       0xc8 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .text.stdio_usb_init
-                0x100037b0       0xe8 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-                0x100037b0                stdio_usb_init
+                0x100037d8       0xe8 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x100037d8                stdio_usb_init
  .text.tud_descriptor_device_cb
-                0x10003898        0x8 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
-                0x10003898                tud_descriptor_device_cb
+                0x100038c0        0x8 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x100038c0                tud_descriptor_device_cb
  .text.tud_descriptor_configuration_cb
-                0x100038a0        0x8 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
-                0x100038a0                tud_descriptor_configuration_cb
+                0x100038c8        0x8 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x100038c8                tud_descriptor_configuration_cb
  .text.tud_descriptor_string_cb
-                0x100038a8       0x78 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
-                0x100038a8                tud_descriptor_string_cb
+                0x100038d0       0x78 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x100038d0                tud_descriptor_string_cb
  .text.startup._retrieve_unique_id_on_boot
-                0x10003920       0x10 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_unique_id/unique_id.c.obj
+                0x10003948       0x10 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_unique_id/unique_id.c.obj
  .text.pico_get_unique_board_id_string
-                0x10003930      0x1a8 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_unique_id/unique_id.c.obj
-                0x10003930                pico_get_unique_board_id_string
+                0x10003958      0x1a8 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_unique_id/unique_id.c.obj
+                0x10003958                pico_get_unique_board_id_string
  .text.flash_get_unique_id
-                0x10003ad8       0x3c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_flash/flash.c.obj
-                0x10003ad8                flash_get_unique_id
+                0x10003b00       0x3c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_flash/flash.c.obj
+                0x10003b00                flash_get_unique_id
  .text.dcd_init
-                0x10003b14       0x90 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x10003b14                dcd_init
+                0x10003b3c       0x90 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x10003b3c                dcd_init
  .text.dcd_int_enable
-                0x10003ba4        0xc CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x10003ba4                dcd_int_enable
+                0x10003bcc        0xc CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x10003bcc                dcd_int_enable
  .text.dcd_set_address
-                0x10003bb0       0x14 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x10003bb0                dcd_set_address
+                0x10003bd8       0x14 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x10003bd8                dcd_set_address
  .text.dcd_sof_enable
-                0x10003bc4       0x1c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x10003bc4                dcd_sof_enable
+                0x10003bec       0x1c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x10003bec                dcd_sof_enable
  .text.dcd_edpt0_status_complete
-                0x10003be0       0x1c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x10003be0                dcd_edpt0_status_complete
+                0x10003c08       0x1c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x10003c08                dcd_edpt0_status_complete
  .text.dcd_edpt_open
-                0x10003bfc      0x114 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x10003bfc                dcd_edpt_open
+                0x10003c24      0x114 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x10003c24                dcd_edpt_open
  .text.dcd_edpt_close_all
-                0x10003d10        0x8 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x10003d10                dcd_edpt_close_all
+                0x10003d38        0x8 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x10003d38                dcd_edpt_close_all
  .text.dcd_edpt_xfer
-                0x10003d18       0x24 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x10003d18                dcd_edpt_xfer
+                0x10003d40       0x24 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x10003d40                dcd_edpt_xfer
  .text.dcd_edpt_stall
-                0x10003d3c       0x3c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x10003d3c                dcd_edpt_stall
+                0x10003d64       0x3c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x10003d64                dcd_edpt_stall
  .text.dcd_edpt_clear_stall
-                0x10003d78       0x30 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x10003d78                dcd_edpt_clear_stall
+                0x10003da0       0x30 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x10003da0                dcd_edpt_clear_stall
  .text.rp2040_usb_init
-                0x10003da8       0x40 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-                0x10003da8                rp2040_usb_init
+                0x10003dd0       0x40 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x10003dd0                rp2040_usb_init
  .text.hw_endpoint_xfer_start
-                0x10003de8       0x40 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-                0x10003de8                hw_endpoint_xfer_start
+                0x10003e10       0x40 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x10003e10                hw_endpoint_xfer_start
  .text.tud_event_hook_cb
-                0x10003e28        0x4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/device/usbd.c.obj
-                0x10003e28                tud_event_hook_cb
+                0x10003e50        0x4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/device/usbd.c.obj
+                0x10003e50                tud_event_hook_cb
  .text.tud_sof_cb
-                0x10003e2c        0x4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/device/usbd.c.obj
-                0x10003e2c                tud_sof_cb
+                0x10003e54        0x4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/device/usbd.c.obj
+                0x10003e54                tud_sof_cb
  .text.tud_descriptor_device_qualifier_cb
-                0x10003e30        0x4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/device/usbd.c.obj
-                0x10003e30                tud_descriptor_device_qualifier_cb
+                0x10003e58        0x4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/device/usbd.c.obj
+                0x10003e58                tud_descriptor_device_qualifier_cb
  .text.tud_descriptor_other_speed_configuration_cb
-                0x10003e34        0x4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/device/usbd.c.obj
-                0x10003e34                tud_descriptor_other_speed_configuration_cb
+                0x10003e5c        0x4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/device/usbd.c.obj
+                0x10003e5c                tud_descriptor_other_speed_configuration_cb
  .text.tud_mount_cb
-                0x10003e38        0x4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/device/usbd.c.obj
-                0x10003e38                tud_mount_cb
+                0x10003e60        0x4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/device/usbd.c.obj
+                0x10003e60                tud_mount_cb
  .text.tud_umount_cb
-                0x10003e3c        0x4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/device/usbd.c.obj
-                0x10003e3c                tud_umount_cb
+                0x10003e64        0x4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/device/usbd.c.obj
+                0x10003e64                tud_umount_cb
  .text.tud_suspend_cb
-                0x10003e40        0x4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/device/usbd.c.obj
-                0x10003e40                tud_suspend_cb
+                0x10003e68        0x4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/device/usbd.c.obj
+                0x10003e68                tud_suspend_cb
  .text.tud_resume_cb
-                0x10003e44        0x4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/device/usbd.c.obj
-                0x10003e44                tud_resume_cb
+                0x10003e6c        0x4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/device/usbd.c.obj
+                0x10003e6c                tud_resume_cb
  .text.tud_mounted
-                0x10003e48       0x10 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/device/usbd.c.obj
-                0x10003e48                tud_mounted
+                0x10003e70       0x10 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/device/usbd.c.obj
+                0x10003e70                tud_mounted
  .text.tud_suspended
-                0x10003e58       0x10 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/device/usbd.c.obj
-                0x10003e58                tud_suspended
+                0x10003e80       0x10 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/device/usbd.c.obj
+                0x10003e80                tud_suspended
  .text.tud_rhport_init
-                0x10003e68       0xf4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/device/usbd.c.obj
-                0x10003e68                tud_rhport_init
+                0x10003e90       0xf4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/device/usbd.c.obj
+                0x10003e90                tud_rhport_init
  .text.tud_task_ext
-                0x10003f5c      0x800 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/device/usbd.c.obj
-                0x10003f5c                tud_task_ext
+                0x10003f84      0x800 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/device/usbd.c.obj
+                0x10003f84                tud_task_ext
  .text.usbd_open_edpt_pair
-                0x1000475c       0x9c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/device/usbd.c.obj
-                0x1000475c                usbd_open_edpt_pair
+                0x10004784       0x9c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/device/usbd.c.obj
+                0x10004784                usbd_open_edpt_pair
  .text.usbd_edpt_open
-                0x100047f8       0x34 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/device/usbd.c.obj
-                0x100047f8                usbd_edpt_open
+                0x10004820       0x34 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/device/usbd.c.obj
+                0x10004820                usbd_edpt_open
  .text.usbd_edpt_claim
-                0x1000482c       0x28 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/device/usbd.c.obj
-                0x1000482c                usbd_edpt_claim
- .text.usbd_edpt_release
                 0x10004854       0x28 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/device/usbd.c.obj
-                0x10004854                usbd_edpt_release
+                0x10004854                usbd_edpt_claim
+ .text.usbd_edpt_release
+                0x1000487c       0x28 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/device/usbd.c.obj
+                0x1000487c                usbd_edpt_release
  .text.usbd_edpt_xfer
-                0x1000487c       0x4c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/device/usbd.c.obj
-                0x1000487c                usbd_edpt_xfer
+                0x100048a4       0x4c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/device/usbd.c.obj
+                0x100048a4                usbd_edpt_xfer
  .text.tud_control_status
-                0x100048c8       0x2c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/device/usbd_control.c.obj
-                0x100048c8                tud_control_status
+                0x100048f0       0x2c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/device/usbd_control.c.obj
+                0x100048f0                tud_control_status
  .text.tud_control_xfer
-                0x100048f4       0xa8 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/device/usbd_control.c.obj
-                0x100048f4                tud_control_xfer
+                0x1000491c       0xa8 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/device/usbd_control.c.obj
+                0x1000491c                tud_control_xfer
  .text.usbd_control_reset
-                0x1000499c       0x14 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/device/usbd_control.c.obj
-                0x1000499c                usbd_control_reset
+                0x100049c4       0x14 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/device/usbd_control.c.obj
+                0x100049c4                usbd_control_reset
  .text.usbd_control_set_complete_callback
-                0x100049b0        0xc CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/device/usbd_control.c.obj
-                0x100049b0                usbd_control_set_complete_callback
+                0x100049d8        0xc CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/device/usbd_control.c.obj
+                0x100049d8                usbd_control_set_complete_callback
  .text.usbd_control_set_request
-                0x100049bc       0x1c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/device/usbd_control.c.obj
-                0x100049bc                usbd_control_set_request
+                0x100049e4       0x1c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/device/usbd_control.c.obj
+                0x100049e4                usbd_control_set_request
  .text.usbd_control_xfer_cb
-                0x100049d8       0xec CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/device/usbd_control.c.obj
-                0x100049d8                usbd_control_xfer_cb
+                0x10004a00       0xec CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/device/usbd_control.c.obj
+                0x10004a00                usbd_control_xfer_cb
  .text._prep_out_transaction.isra.0
-                0x10004ac4       0x6c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x10004aec       0x6c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/class/cdc/cdc_device.c.obj
  .text.tud_cdc_n_connected
-                0x10004b30       0x2c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x10004b30                tud_cdc_n_connected
+                0x10004b58       0x2c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x10004b58                tud_cdc_n_connected
  .text.tud_cdc_n_available
-                0x10004b5c       0x14 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x10004b5c                tud_cdc_n_available
+                0x10004b84       0x14 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x10004b84                tud_cdc_n_available
  .text.tud_cdc_n_read
-                0x10004b70       0x88 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x10004b70                tud_cdc_n_read
+                0x10004b98       0x88 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x10004b98                tud_cdc_n_read
  .text.tud_cdc_n_write_flush
-                0x10004bf8       0x74 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x10004bf8                tud_cdc_n_write_flush
+                0x10004c20       0x74 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x10004c20                tud_cdc_n_write_flush
  .text.tud_cdc_n_write
-                0x10004c6c       0x40 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x10004c6c                tud_cdc_n_write
+                0x10004c94       0x40 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x10004c94                tud_cdc_n_write
  .text.tud_cdc_n_write_available
-                0x10004cac       0x14 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x10004cac                tud_cdc_n_write_available
+                0x10004cd4       0x14 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x10004cd4                tud_cdc_n_write_available
  .text.cdcd_init
-                0x10004cc0       0x70 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x10004cc0                cdcd_init
+                0x10004ce8       0x70 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x10004ce8                cdcd_init
  .text.cdcd_deinit
-                0x10004d30       0x30 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x10004d30                cdcd_deinit
+                0x10004d58       0x30 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x10004d58                cdcd_deinit
  .text.cdcd_reset
-                0x10004d60       0x4c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x10004d60                cdcd_reset
+                0x10004d88       0x4c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x10004d88                cdcd_reset
  .text.cdcd_open
-                0x10004dac       0xa4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x10004dac                cdcd_open
+                0x10004dd4       0xa4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x10004dd4                cdcd_open
  .text.cdcd_control_xfer_cb
-                0x10004e50       0xe8 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x10004e50                cdcd_control_xfer_cb
+                0x10004e78       0xe8 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x10004e78                cdcd_control_xfer_cb
  .text.cdcd_xfer_cb
-                0x10004f38      0x100 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x10004f38                cdcd_xfer_cb
+                0x10004f60      0x100 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x10004f60                cdcd_xfer_cb
  .text.vendord_init
-                0x10005038       0x5c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/class/vendor/vendor_device.c.obj
-                0x10005038                vendord_init
+                0x10005060       0x5c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/class/vendor/vendor_device.c.obj
+                0x10005060                vendord_init
  .text.vendord_deinit
-                0x10005094       0x1c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/class/vendor/vendor_device.c.obj
-                0x10005094                vendord_deinit
+                0x100050bc       0x1c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/class/vendor/vendor_device.c.obj
+                0x100050bc                vendord_deinit
  .text.vendord_reset
-                0x100050b0       0x28 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/class/vendor/vendor_device.c.obj
-                0x100050b0                vendord_reset
+                0x100050d8       0x28 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/class/vendor/vendor_device.c.obj
+                0x100050d8                vendord_reset
  .text.vendord_open
-                0x100050d8      0x120 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/class/vendor/vendor_device.c.obj
-                0x100050d8                vendord_open
+                0x10005100      0x120 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/class/vendor/vendor_device.c.obj
+                0x10005100                vendord_open
  .text.vendord_xfer_cb
-                0x100051f8       0x9c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/class/vendor/vendor_device.c.obj
-                0x100051f8                vendord_xfer_cb
+                0x10005220       0x9c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/class/vendor/vendor_device.c.obj
+                0x10005220                vendord_xfer_cb
  .text.tusb_rhport_init
-                0x10005294       0x4c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/tusb.c.obj
-                0x10005294                tusb_rhport_init
+                0x100052bc       0x4c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/tusb.c.obj
+                0x100052bc                tusb_rhport_init
  .text.tu_edpt_claim
-                0x100052e0       0x50 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/tusb.c.obj
-                0x100052e0                tu_edpt_claim
+                0x10005308       0x50 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/tusb.c.obj
+                0x10005308                tu_edpt_claim
  .text.tu_edpt_release
-                0x10005330       0x38 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/tusb.c.obj
-                0x10005330                tu_edpt_release
+                0x10005358       0x38 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/tusb.c.obj
+                0x10005358                tu_edpt_release
  .text.tu_edpt_validate
-                0x10005368       0x7c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/tusb.c.obj
-                0x10005368                tu_edpt_validate
+                0x10005390       0x7c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/tusb.c.obj
+                0x10005390                tu_edpt_validate
  .text.tu_edpt_bind_driver
-                0x100053e4       0x34 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/tusb.c.obj
-                0x100053e4                tu_edpt_bind_driver
+                0x1000540c       0x34 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/tusb.c.obj
+                0x1000540c                tu_edpt_bind_driver
  .text.tu_edpt_stream_init
-                0x10005418       0x6c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/tusb.c.obj
-                0x10005418                tu_edpt_stream_init
+                0x10005440       0x6c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/tusb.c.obj
+                0x10005440                tu_edpt_stream_init
  .text.tu_edpt_stream_deinit
-                0x10005484        0x4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/tusb.c.obj
-                0x10005484                tu_edpt_stream_deinit
+                0x100054ac        0x4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/tusb.c.obj
+                0x100054ac                tu_edpt_stream_deinit
  .text.tu_edpt_stream_write_zlp_if_needed
-                0x10005488       0x68 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/tusb.c.obj
-                0x10005488                tu_edpt_stream_write_zlp_if_needed
+                0x100054b0       0x68 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/tusb.c.obj
+                0x100054b0                tu_edpt_stream_write_zlp_if_needed
  .text.tu_edpt_stream_write_xfer
-                0x100054f0       0x68 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/tusb.c.obj
-                0x100054f0                tu_edpt_stream_write_xfer
+                0x10005518       0x68 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/tusb.c.obj
+                0x10005518                tu_edpt_stream_write_xfer
  .text.tu_edpt_stream_read_xfer
-                0x10005558       0xd8 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/tusb.c.obj
-                0x10005558                tu_edpt_stream_read_xfer
+                0x10005580       0xd8 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/tusb.c.obj
+                0x10005580                tu_edpt_stream_read_xfer
  .text.tu_fifo_config
-                0x10005630       0x6c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x10005630                tu_fifo_config
+                0x10005658       0x6c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x10005658                tu_fifo_config
  .text.tu_fifo_count
-                0x1000569c       0x2c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x1000569c                tu_fifo_count
+                0x100056c4       0x2c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x100056c4                tu_fifo_count
  .text.tu_fifo_empty
-                0x100056c8       0x10 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x100056c8                tu_fifo_empty
+                0x100056f0       0x10 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x100056f0                tu_fifo_empty
  .text.tu_fifo_remaining
-                0x100056d8       0x2c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x100056d8                tu_fifo_remaining
+                0x10005700       0x2c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x10005700                tu_fifo_remaining
  .text.tu_fifo_read
-                0x10005704       0x9c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x10005704                tu_fifo_read
+                0x1000572c       0x9c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x1000572c                tu_fifo_read
  .text.tu_fifo_read_n
-                0x100057a0       0xe8 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x100057a0                tu_fifo_read_n
+                0x100057c8       0xe8 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x100057c8                tu_fifo_read_n
  .text.tu_fifo_write
-                0x10005888       0xa4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x10005888                tu_fifo_write
+                0x100058b0       0xa4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x100058b0                tu_fifo_write
  .text.tu_fifo_write_n
-                0x1000592c      0x178 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x1000592c                tu_fifo_write_n
+                0x10005954      0x178 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x10005954                tu_fifo_write_n
  .text.tu_fifo_clear
-                0x10005aa4       0x40 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x10005aa4                tu_fifo_clear
+                0x10005acc       0x40 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x10005acc                tu_fifo_clear
  .text.tu_fifo_set_overwritable
-                0x10005ae4       0x48 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x10005ae4                tu_fifo_set_overwritable
+                0x10005b0c       0x48 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x10005b0c                tu_fifo_set_overwritable
  .text.pio_claim_unused_sm
-                0x10005b2c       0x38 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_pio/pio.c.obj
-                0x10005b2c                pio_claim_unused_sm
+                0x10005b54       0x38 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_pio/pio.c.obj
+                0x10005b54                pio_claim_unused_sm
  .text.pio_add_program
-                0x10005b64       0xf8 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_pio/pio.c.obj
-                0x10005b64                pio_add_program
+                0x10005b8c       0xf8 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_pio/pio.c.obj
+                0x10005b8c                pio_add_program
  .text.pio_sm_set_consecutive_pindirs
-                0x10005c5c       0xb4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_pio/pio.c.obj
-                0x10005c5c                pio_sm_set_consecutive_pindirs
+                0x10005c84       0xb4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_pio/pio.c.obj
+                0x10005c84                pio_sm_set_consecutive_pindirs
  .text.pio_sm_init
-                0x10005d10       0x9c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_pio/pio.c.obj
-                0x10005d10                pio_sm_init
- .text.malloc   0x10005dac       0x14 C:/Users/Elias/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-malloc.o)
-                0x10005dac                malloc
- .text.free     0x10005dc0       0x14 C:/Users/Elias/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-malloc.o)
-                0x10005dc0                free
+                0x10005d38       0x9c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_pio/pio.c.obj
+                0x10005d38                pio_sm_init
+ .text.malloc   0x10005dd4       0x14 C:/Users/Elias/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-malloc.o)
+                0x10005dd4                malloc
+ .text.free     0x10005de8       0x14 C:/Users/Elias/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-malloc.o)
+                0x10005de8                free
  .text._malloc_r
-                0x10005dd4      0x5cc C:/Users/Elias/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-mallocr.o)
-                0x10005dd4                _malloc_r
+                0x10005dfc      0x5cc C:/Users/Elias/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-mallocr.o)
+                0x10005dfc                _malloc_r
  .text.__malloc_lock
-                0x100063a0       0x10 C:/Users/Elias/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-mlock.o)
-                0x100063a0                __malloc_lock
+                0x100063c8       0x10 C:/Users/Elias/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-mlock.o)
+                0x100063c8                __malloc_lock
  .text.__malloc_unlock
-                0x100063b0       0x10 C:/Users/Elias/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-mlock.o)
-                0x100063b0                __malloc_unlock
- .text._sbrk_r  0x100063c0       0x24 C:/Users/Elias/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-sbrkr.o)
-                0x100063c0                _sbrk_r
- .text.__errno  0x100063e4        0xc C:/Users/Elias/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-errno.o)
-                0x100063e4                __errno
+                0x100063d8       0x10 C:/Users/Elias/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-mlock.o)
+                0x100063d8                __malloc_unlock
+ .text._sbrk_r  0x100063e8       0x24 C:/Users/Elias/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-sbrkr.o)
+                0x100063e8                _sbrk_r
+ .text.__errno  0x1000640c        0xc C:/Users/Elias/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-errno.o)
+                0x1000640c                __errno
  .text.__retarget_lock_acquire_recursive
-                0x100063f0        0x4 C:/Users/Elias/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-lock.o)
-                0x100063f0                __retarget_lock_acquire_recursive
+                0x10006418        0x4 C:/Users/Elias/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-lock.o)
+                0x10006418                __retarget_lock_acquire_recursive
  .text.__retarget_lock_release_recursive
-                0x100063f4        0x4 C:/Users/Elias/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-lock.o)
-                0x100063f4                __retarget_lock_release_recursive
- .text.sysconf  0x100063f8       0x1c C:/Users/Elias/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-sysconf.o)
-                0x100063f8                sysconf
- .text.strlen   0x10006414       0x5c C:/Users/Elias/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-strlen-stub.o)
-                0x10006414                strlen
+                0x1000641c        0x4 C:/Users/Elias/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-lock.o)
+                0x1000641c                __retarget_lock_release_recursive
+ .text.sysconf  0x10006420       0x1c C:/Users/Elias/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-sysconf.o)
+                0x10006420                sysconf
+ .text.strlen   0x1000643c       0x5c C:/Users/Elias/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-strlen-stub.o)
+                0x1000643c                strlen
  .text._malloc_trim_r
-                0x10006470       0xb4 C:/Users/Elias/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-freer.o)
-                0x10006470                _malloc_trim_r
- .text._free_r  0x10006524      0x1f0 C:/Users/Elias/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-freer.o)
-                0x10006524                _free_r
+                0x10006498       0xb4 C:/Users/Elias/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-freer.o)
+                0x10006498                _malloc_trim_r
+ .text._free_r  0x1000654c      0x1f0 C:/Users/Elias/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-freer.o)
+                0x1000654c                _free_r
  *(.fini)
- .fini          0x10006714        0x4 C:/Users/Elias/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crti.o
-                0x10006714                _fini
- .fini.__stub   0x10006718       0xb0 linker stubs
+ .fini          0x1000673c        0x4 C:/Users/Elias/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crti.o
+                0x1000673c                _fini
+ .fini.__stub   0x10006740       0xb0 linker stubs
  *crtbegin.o(.ctors)
  *crtbegin?.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
@@ -3322,212 +3322,214 @@ LOAD C:/Users/Elias/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/1
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .dtors)
  *(SORT_BY_NAME(.dtors.*))
  *(.dtors)
-                0x100067c8                        . = ALIGN (0x4)
-                0x100067c8                        PROVIDE (__preinit_array_start = .)
+                0x100067f0                        . = ALIGN (0x4)
+                0x100067f0                        PROVIDE (__preinit_array_start = .)
  *(SORT_BY_NAME(.preinit_array.*))
  .preinit_array.00100
-                0x100067c8        0x4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime_init/runtime_init.c.obj
-                0x100067c8                __pre_init_runtime_init_early_resets
+                0x100067f0        0x4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+                0x100067f0                __pre_init_runtime_init_early_resets
  .preinit_array.00101
-                0x100067cc        0x4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime_init/runtime_init.c.obj
-                0x100067cc                __pre_init_runtime_init_usb_power_down
- .preinit_array.00275
-                0x100067d0        0x4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
- .preinit_array.00300
-                0x100067d4        0x4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
- .preinit_array.00350
-                0x100067d8        0x4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
- .preinit_array.00350
-                0x100067dc        0x4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
- .preinit_array.00500
-                0x100067e0        0x4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime_init/runtime_init.c.obj
-                0x100067e0                __pre_init_runtime_init_clocks
- .preinit_array.00600
-                0x100067e4        0x4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime_init/runtime_init.c.obj
-                0x100067e4                __pre_init_runtime_init_post_clock_resets
- .preinit_array.00700
-                0x100067e8        0x4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime_init/runtime_init.c.obj
-                0x100067e8                __pre_init_runtime_init_rp2040_gpio_ie_disable
- .preinit_array.01000
-                0x100067ec        0x4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime_init/runtime_init.c.obj
-                0x100067ec                __pre_init_runtime_init_spin_locks_reset
- .preinit_array.01100
-                0x100067f0        0x4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/common/pico_sync/mutex.c.obj
-                0x100067f0                __pre_init_runtime_init_mutex
- .preinit_array.10080
                 0x100067f4        0x4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime_init/runtime_init.c.obj
-                0x100067f4                __pre_init_runtime_init_install_ram_vector_table
+                0x100067f4                __pre_init_runtime_init_usb_power_down
+ .preinit_array.00275
+                0x100067f8        0x4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+ .preinit_array.00300
+                0x100067fc        0x4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+ .preinit_array.00350
+                0x10006800        0x4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+ .preinit_array.00350
+                0x10006804        0x4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
+ .preinit_array.00500
+                0x10006808        0x4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+                0x10006808                __pre_init_runtime_init_clocks
+ .preinit_array.00600
+                0x1000680c        0x4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+                0x1000680c                __pre_init_runtime_init_post_clock_resets
+ .preinit_array.00700
+                0x10006810        0x4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+                0x10006810                __pre_init_runtime_init_rp2040_gpio_ie_disable
+ .preinit_array.01000
+                0x10006814        0x4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+                0x10006814                __pre_init_runtime_init_spin_locks_reset
+ .preinit_array.01100
+                0x10006818        0x4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/common/pico_sync/mutex.c.obj
+                0x10006818                __pre_init_runtime_init_mutex
+ .preinit_array.10080
+                0x1000681c        0x4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+                0x1000681c                __pre_init_runtime_init_install_ram_vector_table
  .preinit_array.11000
-                0x100067f8        0x4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/common/pico_time/time.c.obj
-                0x100067f8                __pre_init_runtime_init_default_alarm_pool
+                0x10006820        0x4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/common/pico_time/time.c.obj
+                0x10006820                __pre_init_runtime_init_default_alarm_pool
  .preinit_array.YYYYY
-                0x100067fc        0x4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime/runtime.c.obj
-                0x100067fc                __pre_init_first_per_core_initializer
+                0x10006824        0x4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10006824                __pre_init_first_per_core_initializer
  .preinit_array.ZZZZZ.01200
-                0x10006800        0x4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_irq/irq.c.obj
-                0x10006800                __pre_init_runtime_init_per_core_irq_priorities
+                0x10006828        0x4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_irq/irq.c.obj
+                0x10006828                __pre_init_runtime_init_per_core_irq_priorities
  *(.preinit_array)
-                0x10006804                        PROVIDE (__preinit_array_end = .)
-                0x10006804                        . = ALIGN (0x4)
-                0x10006804                        PROVIDE (__init_array_start = .)
+                0x1000682c                        PROVIDE (__preinit_array_end = .)
+                0x1000682c                        . = ALIGN (0x4)
+                0x1000682c                        PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array)
- .init_array    0x10006804        0x4 C:/Users/Elias/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crtbegin.o
- .init_array    0x10006808        0x4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_unique_id/unique_id.c.obj
-                0x1000680c                        PROVIDE (__init_array_end = .)
-                0x1000680c                        . = ALIGN (0x4)
+ .init_array    0x1000682c        0x4 C:/Users/Elias/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crtbegin.o
+ .init_array    0x10006830        0x4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_unique_id/unique_id.c.obj
+                0x10006834                        PROVIDE (__init_array_end = .)
+                0x10006834                        . = ALIGN (0x4)
                 [!provide]                        PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array)
                 [!provide]                        PROVIDE (__fini_array_end = .)
  *(.eh_frame*)
- .eh_frame      0x1000680c        0x0 C:/Users/Elias/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crtbegin.o
-                0x1000680c                        . = ALIGN (0x4)
+ .eh_frame      0x10006834        0x0 C:/Users/Elias/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crtbegin.o
+                0x10006834                        . = ALIGN (0x4)
 
-.glue_7         0x1000680c        0x0
- .glue_7        0x1000680c        0x0 linker stubs
+.glue_7         0x10006834        0x0
+ .glue_7        0x10006834        0x0 linker stubs
 
-.glue_7t        0x1000680c        0x0
- .glue_7t       0x1000680c        0x0 linker stubs
+.glue_7t        0x10006834        0x0
+ .glue_7t       0x10006834        0x0 linker stubs
 
-.vfp11_veneer   0x1000680c        0x0
- .vfp11_veneer  0x1000680c        0x0 linker stubs
+.vfp11_veneer   0x10006834        0x0
+ .vfp11_veneer  0x10006834        0x0 linker stubs
 
-.v4_bx          0x1000680c        0x0
- .v4_bx         0x1000680c        0x0 linker stubs
+.v4_bx          0x10006834        0x0
+ .v4_bx         0x10006834        0x0 linker stubs
 
-.iplt           0x1000680c        0x0
- .iplt          0x1000680c        0x0 C:/Users/Elias/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crtbegin.o
+.iplt           0x10006834        0x0
+ .iplt          0x10006834        0x0 C:/Users/Elias/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crtbegin.o
 
-.rodata         0x10006810      0x6d8
+.rodata         0x10006838      0x720
  *(EXCLUDE_FILE(*libm.a: *libc.a:*lib_a-mem*.o *libgcc.a:) .rodata*)
  .rodata.criar_frase_da_string
-                0x10006810       0xe8 CMakeFiles/main.dir/main.c.obj
+                0x10006838       0xe8 CMakeFiles/main.dir/main.c.obj
+ .rodata.exibir_frase_rolagem.str1.4
+                0x10006920      0x240 CMakeFiles/main.dir/main.c.obj
+                                 0x49 (size before relaxing)
  .rodata.inicializar_sistema.str1.4
-                0x100068f8      0x1f4 CMakeFiles/main.dir/main.c.obj
-                                 0x42 (size before relaxing)
+                0x10006b60       0x42 CMakeFiles/main.dir/main.c.obj
  .rodata.main.str1.4
-                0x10006aec        0xa CMakeFiles/main.dir/main.c.obj
+                0x10006b60        0xb CMakeFiles/main.dir/main.c.obj
  .rodata.main_program
-                0x10006aec        0x8 CMakeFiles/main.dir/main.c.obj
+                0x10006b60        0x8 CMakeFiles/main.dir/main.c.obj
  .rodata.main_program_instructions
-                0x10006af4        0xe CMakeFiles/main.dir/main.c.obj
- *fill*         0x10006b02        0x6 
- .rodata        0x10006b08       0x18 CMakeFiles/main.dir/main.c.obj
+                0x10006b68        0xe CMakeFiles/main.dir/main.c.obj
+ *fill*         0x10006b76        0x2 
+ .rodata        0x10006b78       0x18 CMakeFiles/main.dir/main.c.obj
  .rodata.panic.str1.4
-                0x10006b20       0x12 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_platform_panic/panic.c.obj
+                0x10006b90       0x12 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_platform_panic/panic.c.obj
  .rodata.spin_lock_claim_unused.str1.4
-                0x10006b20       0x1b CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_sync/sync.c.obj
+                0x10006b90       0x1b CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_sync/sync.c.obj
  .rodata.user_irq_claim_unused.str1.4
-                0x10006b20       0x1b CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_irq/irq.c.obj
+                0x10006b90       0x1b CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_irq/irq.c.obj
  .rodata.timer_hardware_alarm_claim.str1.4
-                0x10006b20       0x22 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_timer/timer.c.obj
+                0x10006b90       0x22 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_timer/timer.c.obj
  .rodata.hard_assertion_failure.str1.4
-                0x10006b20        0xc CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10006b90        0xc CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime/runtime.c.obj
  .rodata.missing_double_func_shim.str1.4
-                0x10006b20       0x18 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
+                0x10006b90       0x18 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
  .rodata.missing_float_func_shim.str1.4
-                0x10006b20        0x1 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
+                0x10006b90        0x1 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
  .rodata.__wrap_malloc.str1.4
-                0x10006b20        0xe CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_malloc/malloc.c.obj
+                0x10006b90        0xe CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_malloc/malloc.c.obj
  .rodata.str1.4
-                0x10006b20       0x40 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x10006b90       0x40 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  .rodata.__bi_84
-                0x10006b20        0xc CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x10006b90        0xc CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  .rodata.__bi_78
-                0x10006b2c        0xc CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x10006b9c        0xc CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  .rodata.__bi_60
-                0x10006b38        0xc CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x10006ba8        0xc CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  .rodata.__bi_54
-                0x10006b44        0xc CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x10006bb4        0xc CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  .rodata.__bi_48
-                0x10006b50        0xc CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x10006bc0        0xc CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  .rodata.__bi_42
-                0x10006b5c        0xc CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x10006bcc        0xc CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  .rodata.__bi_34
-                0x10006b68        0xc CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x10006bd8        0xc CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  .rodata.__bi_26
-                0x10006b74        0xc CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x10006be4        0xc CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  .rodata.crlf_str.0
-                0x10006b80        0x2 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio/stdio.c.obj
- *fill*         0x10006b82        0x2 
+                0x10006bf0        0x2 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio/stdio.c.obj
+ *fill*         0x10006bf2        0x2 
  .rodata._resetd_driver
-                0x10006b84       0x20 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x10006bf4       0x20 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .rodata.desc_ms_os_20
-                0x10006ba4       0xa6 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
- *fill*         0x10006c4a        0x2 
+                0x10006c14       0xa6 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+ *fill*         0x10006cba        0x2 
  .rodata.desc_bos
-                0x10006c4c       0x21 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
-                0x10006c4c                desc_bos
+                0x10006cbc       0x21 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x10006cbc                desc_bos
  .rodata.str1.4
-                0x10006c6d       0x13 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
- *fill*         0x10006c6d        0x3 
+                0x10006cdd       0x13 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+ *fill*         0x10006cdd        0x3 
  .rodata.__bi_197.0
-                0x10006c70        0xc CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x10006ce0        0xc CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .rodata.str1.4
-                0x10006c7c       0x2a CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x10006cec       0x2a CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
  .rodata.usbd_desc_str
-                0x10006c7c       0x18 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x10006cec       0x18 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
  .rodata.usbd_desc_cfg
-                0x10006c94       0x54 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x10006d04       0x54 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
  .rodata.usbd_desc_device
-                0x10006ce8       0x12 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x10006d58       0x12 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
  .rodata.str1.4
-                0x10006cfa       0x14 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x10006d6a       0x14 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
  .rodata.str1.4
-                0x10006cfa       0x48 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
- *fill*         0x10006cfa        0x2 
+                0x10006d6a       0x48 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+ *fill*         0x10006d6a        0x2 
  .rodata.tud_task_ext
-                0x10006cfc       0x8c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/device/usbd.c.obj
- .rodata        0x10006d88       0x1c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/device/usbd.c.obj
+                0x10006d6c       0x8c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/device/usbd.c.obj
+ .rodata        0x10006df8       0x1c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/device/usbd.c.obj
  .rodata._usbd_driver
-                0x10006da4       0x40 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/device/usbd.c.obj
+                0x10006e14       0x40 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/device/usbd.c.obj
  .rodata.pio_claim_unused_sm.str1.4
-                0x10006de4       0x24 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_pio/pio.c.obj
+                0x10006e54       0x24 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_pio/pio.c.obj
  .rodata._ctype_
-                0x10006de4      0x101 C:/Users/Elias/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-ctype_.o)
-                0x10006de4                _ctype_
-                0x10006ee8                        . = ALIGN (0x4)
- *fill*         0x10006ee5        0x3 
+                0x10006e54      0x101 C:/Users/Elias/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-ctype_.o)
+                0x10006e54                _ctype_
+                0x10006f58                        . = ALIGN (0x4)
+ *fill*         0x10006f55        0x3 
  *(SORT_BY_ALIGNMENT(SORT_BY_NAME(.flashdata*)))
-                0x10006ee8                        . = ALIGN (0x4)
+                0x10006f58                        . = ALIGN (0x4)
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x10006ee8                        __exidx_start = .
+                0x10006f58                        __exidx_start = .
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x10006ee8                        __exidx_end = .
-                0x10006ee8                        . = ALIGN (0x4)
-                0x10006ee8                        __binary_info_start = .
+                0x10006f58                        __exidx_end = .
+                0x10006f58                        . = ALIGN (0x4)
+                0x10006f58                        __binary_info_start = .
 
-.binary_info    0x10006ee8       0x24
+.binary_info    0x10006f58       0x24
  *(.binary_info.keep.*)
  .binary_info.keep.__bi_ptr84
-                0x10006ee8        0x4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x10006f58        0x4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  .binary_info.keep.__bi_ptr78
-                0x10006eec        0x4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x10006f5c        0x4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  .binary_info.keep.__bi_ptr60
-                0x10006ef0        0x4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x10006f60        0x4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  .binary_info.keep.__bi_ptr54
-                0x10006ef4        0x4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x10006f64        0x4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  .binary_info.keep.__bi_ptr48
-                0x10006ef8        0x4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x10006f68        0x4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  .binary_info.keep.__bi_ptr42
-                0x10006efc        0x4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x10006f6c        0x4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  .binary_info.keep.__bi_ptr34
-                0x10006f00        0x4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x10006f70        0x4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  .binary_info.keep.__bi_ptr26
-                0x10006f04        0x4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x10006f74        0x4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  *(.binary_info.*)
  .binary_info.__bi_ptr197
-                0x10006f08        0x4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-                0x10006f0c                        __binary_info_end = .
+                0x10006f78        0x4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x10006f7c                        __binary_info_end = .
 
-.rel.dyn        0x10006f0c        0x0
- .rel.iplt      0x10006f0c        0x0 C:/Users/Elias/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crtbegin.o
-                0x10006f0c                        . = ALIGN (0x4)
+.rel.dyn        0x10006f7c        0x0
+ .rel.iplt      0x10006f7c        0x0 C:/Users/Elias/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crtbegin.o
+                0x10006f7c                        . = ALIGN (0x4)
 
 .ram_vector_table
                 0x20000000       0xc0
@@ -3541,7 +3543,7 @@ LOAD C:/Users/Elias/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/1
                 0x200000c0                        . = ALIGN (0x4)
  *(.uninitialized_data*)
 
-.data           0x200000c0     0x38e8 load address 0x10006f0c
+.data           0x200000c0     0x38e8 load address 0x10006f7c
                 0x200000c0                        __data_start__ = .
  *(vtable)
  *(.time_critical*)
@@ -3812,23 +3814,23 @@ LOAD C:/Users/Elias/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/1
                 0x200039a8                        . = ALIGN (0x4)
 
 .tm_clone_table
-                0x200039a8        0x0 load address 0x1000a7f4
+                0x200039a8        0x0 load address 0x1000a864
  .tm_clone_table
                 0x200039a8        0x0 C:/Users/Elias/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crtbegin.o
  .tm_clone_table
                 0x200039a8        0x0 C:/Users/Elias/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crtend.o
 
-.igot.plt       0x200039a8        0x0 load address 0x1000a7f4
+.igot.plt       0x200039a8        0x0 load address 0x1000a864
  .igot.plt      0x200039a8        0x0 C:/Users/Elias/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crtbegin.o
 
-.tdata          0x200039a8        0x0 load address 0x1000a7f4
+.tdata          0x200039a8        0x0 load address 0x1000a864
                 0x200039a8                        . = ALIGN (0x4)
  *(.tdata .tdata.* .gnu.linkonce.td.*)
                 0x200039a8                        __tdata_end = .
                 0x200039a8                        PROVIDE (__data_end__ = .)
-                0x10006f0c                        __etext = LOADADDR (.data)
+                0x10006f7c                        __etext = LOADADDR (.data)
 
-.tbss           0x200039a8        0x0 load address 0x1000a7f4
+.tbss           0x200039a8        0x0 load address 0x1000a864
                 0x200039a8                        . = ALIGN (0x4)
                 0x200039a8                        __bss_start__ = .
                 0x200039a8                        __tls_base = .
@@ -3836,7 +3838,7 @@ LOAD C:/Users/Elias/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/1
  *(.tcommon)
                 0x200039a8                        __tls_end = .
 
-.bss            0x200039a8     0x1210 load address 0x1000a7f4
+.bss            0x200039a8     0x1210 load address 0x1000a864
                 0x200039a8                        . = ALIGN (0x4)
                 0x200039a8                        __tbss_end = .
  *(SORT_BY_ALIGNMENT(SORT_BY_NAME(.bss*)))
@@ -3973,26 +3975,26 @@ LOAD C:/Users/Elias/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/1
  *fill*         0x20004bb6        0x2 
                 0x20004bb8                        __bss_end__ = .
 
-.heap           0x20004bb8      0x800 load address 0x1000a7f4
+.heap           0x20004bb8      0x800 load address 0x1000a864
                 0x20004bb8                        __end__ = .
                 0x20004bb8                        end = __end__
  *(.heap*)
  .heap          0x20004bb8      0x800 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_crt0/crt0.S.obj
                 0x20040000                        __HeapLimit = (ORIGIN (RAM) + LENGTH (RAM))
 
-.scratch_x      0x20040000        0x0 load address 0x1000a7f4
+.scratch_x      0x20040000        0x0 load address 0x1000a864
                 0x20040000                        __scratch_x_start__ = .
  *(.scratch_x.*)
                 0x20040000                        . = ALIGN (0x4)
                 0x20040000                        __scratch_x_end__ = .
-                0x1000a7f4                        __scratch_x_source__ = LOADADDR (.scratch_x)
+                0x1000a864                        __scratch_x_source__ = LOADADDR (.scratch_x)
 
-.scratch_y      0x20041000        0x0 load address 0x1000a7f4
+.scratch_y      0x20041000        0x0 load address 0x1000a864
                 0x20041000                        __scratch_y_start__ = .
  *(.scratch_y.*)
                 0x20041000                        . = ALIGN (0x4)
                 0x20041000                        __scratch_y_end__ = .
-                0x1000a7f4                        __scratch_y_source__ = LOADADDR (.scratch_y)
+                0x1000a864                        __scratch_y_source__ = LOADADDR (.scratch_y)
 
 .stack1_dummy
  *(.stack1*)
@@ -4001,9 +4003,9 @@ LOAD C:/Users/Elias/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/1
  *(.stack*)
  .stack         0x20041000      0x800 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_crt0/crt0.S.obj
 
-.flash_end      0x1000a7f4        0x0
+.flash_end      0x1000a864        0x0
  *(.embedded_end_block*)
-                0x1000a7f4                        PROVIDE (__flash_binary_end = .)
+                0x1000a864                        PROVIDE (__flash_binary_end = .)
                 0x20040000                        __StackLimit = (ORIGIN (RAM) + LENGTH (RAM))
                 0x20041000                        __StackOneTop = (ORIGIN (SCRATCH_X) + LENGTH (SCRATCH_X))
                 0x20042000                        __StackTop = (ORIGIN (SCRATCH_Y) + LENGTH (SCRATCH_Y))
@@ -4309,196 +4311,196 @@ LOAD linker stubs
  .comment       0x00000045       0x46 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/common/tusb_fifo.c.obj
  .comment       0x00000045       0x46 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_pio/pio.c.obj
 
-.debug_info     0x00000000    0x36037
- .debug_info    0x00000000     0x3066 CMakeFiles/main.dir/main.c.obj
- .debug_info    0x00003066     0x242d CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_info    0x00005493      0x129 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2040/pico_platform/platform.c.obj
- .debug_info    0x000055bc      0x1bf CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_platform_panic/panic.c.obj
- .debug_info    0x0000577b      0x9a1 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/common/hardware_claim/claim.c.obj
- .debug_info    0x0000611c      0x45c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_sync/sync.c.obj
- .debug_info    0x00006578      0x245 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
- .debug_info    0x000067bd     0x220f CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_irq/irq.c.obj
- .debug_info    0x000089cc      0x15f CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/common/pico_sync/lock_core.c.obj
- .debug_info    0x00008b2b     0x27f1 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/common/pico_sync/mutex.c.obj
- .debug_info    0x0000b31c      0x308 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/common/pico_sync/critical_section.c.obj
- .debug_info    0x0000b624     0x5036 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/common/pico_time/time.c.obj
- .debug_info    0x0001065a     0x2b13 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_timer/timer.c.obj
- .debug_info    0x0001316d     0x2991 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_info    0x00015afe      0x4e5 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_pll/pll.c.obj
- .debug_info    0x00015fe3      0x8af CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_watchdog/watchdog.c.obj
- .debug_info    0x00016892      0x248 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_ticks/ticks.c.obj
- .debug_info    0x00016ada      0x678 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_info    0x00017152      0x1d0 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_info    0x00017322      0x21a CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_info    0x0001753c      0x795 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime_init/runtime_init.c.obj
- .debug_info    0x00017cd1      0x781 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
- .debug_info    0x00018452       0x23 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
- .debug_info    0x00018475       0x23 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_divider/divider_hardware.S.obj
- .debug_info    0x00018498       0x23 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
- .debug_info    0x000184bb      0x2c4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
- .debug_info    0x0001877f       0x24 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
- .debug_info    0x000187a3       0x24 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
- .debug_info    0x000187c7       0x23 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
- .debug_info    0x000187ea      0x2b0 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
- .debug_info    0x00018a9a      0x3e4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_malloc/malloc.c.obj
- .debug_info    0x00018e7e       0x23 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
- .debug_info    0x00018ea1      0x2e2 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
- .debug_info    0x00019183     0x22f2 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_printf/printf.c.obj
- .debug_info    0x0001b475       0x23 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_crt0/crt0.S.obj
- .debug_info    0x0001b498      0xb54 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
- .debug_info    0x0001bfec     0x1c52 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio/stdio.c.obj
- .debug_info    0x0001dc3e      0xa6f CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
- .debug_info    0x0001e6ad     0x1eef CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
- .debug_info    0x0002059c      0x686 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
- .debug_info    0x00020c22      0x201 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_unique_id/unique_id.c.obj
- .debug_info    0x00020e23     0x12f4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_flash/flash.c.obj
- .debug_info    0x00022117     0x2af8 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
- .debug_info    0x00024c0f     0x1158 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
- .debug_info    0x00025d67     0x49a8 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/device/usbd.c.obj
- .debug_info    0x0002a70f      0xb42 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/device/usbd_control.c.obj
- .debug_info    0x0002b251     0x1fae CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/class/cdc/cdc_device.c.obj
- .debug_info    0x0002d1ff     0x1713 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/class/vendor/vendor_device.c.obj
- .debug_info    0x0002e912     0x1e8c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/tusb.c.obj
- .debug_info    0x0003079e     0x283d CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/common/tusb_fifo.c.obj
- .debug_info    0x00032fdb     0x305c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_pio/pio.c.obj
+.debug_info     0x00000000    0x3608b
+ .debug_info    0x00000000     0x30ba CMakeFiles/main.dir/main.c.obj
+ .debug_info    0x000030ba     0x242d CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_info    0x000054e7      0x129 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2040/pico_platform/platform.c.obj
+ .debug_info    0x00005610      0x1bf CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_platform_panic/panic.c.obj
+ .debug_info    0x000057cf      0x9a1 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/common/hardware_claim/claim.c.obj
+ .debug_info    0x00006170      0x45c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_info    0x000065cc      0x245 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
+ .debug_info    0x00006811     0x220f CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_info    0x00008a20      0x15f CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/common/pico_sync/lock_core.c.obj
+ .debug_info    0x00008b7f     0x27f1 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/common/pico_sync/mutex.c.obj
+ .debug_info    0x0000b370      0x308 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/common/pico_sync/critical_section.c.obj
+ .debug_info    0x0000b678     0x5036 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/common/pico_time/time.c.obj
+ .debug_info    0x000106ae     0x2b13 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_info    0x000131c1     0x2991 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_info    0x00015b52      0x4e5 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_info    0x00016037      0x8af CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_watchdog/watchdog.c.obj
+ .debug_info    0x000168e6      0x248 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_ticks/ticks.c.obj
+ .debug_info    0x00016b2e      0x678 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_info    0x000171a6      0x1d0 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_info    0x00017376      0x21a CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_info    0x00017590      0x795 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+ .debug_info    0x00017d25      0x781 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
+ .debug_info    0x000184a6       0x23 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+ .debug_info    0x000184c9       0x23 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_divider/divider_hardware.S.obj
+ .debug_info    0x000184ec       0x23 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+ .debug_info    0x0001850f      0x2c4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
+ .debug_info    0x000187d3       0x24 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
+ .debug_info    0x000187f7       0x24 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+ .debug_info    0x0001881b       0x23 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
+ .debug_info    0x0001883e      0x2b0 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
+ .debug_info    0x00018aee      0x3e4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_malloc/malloc.c.obj
+ .debug_info    0x00018ed2       0x23 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+ .debug_info    0x00018ef5      0x2e2 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+ .debug_info    0x000191d7     0x22f2 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_printf/printf.c.obj
+ .debug_info    0x0001b4c9       0x23 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_crt0/crt0.S.obj
+ .debug_info    0x0001b4ec      0xb54 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
+ .debug_info    0x0001c040     0x1c52 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio/stdio.c.obj
+ .debug_info    0x0001dc92      0xa6f CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+ .debug_info    0x0001e701     0x1eef CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+ .debug_info    0x000205f0      0x686 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+ .debug_info    0x00020c76      0x201 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_unique_id/unique_id.c.obj
+ .debug_info    0x00020e77     0x12f4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_flash/flash.c.obj
+ .debug_info    0x0002216b     0x2af8 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+ .debug_info    0x00024c63     0x1158 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+ .debug_info    0x00025dbb     0x49a8 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/device/usbd.c.obj
+ .debug_info    0x0002a763      0xb42 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/device/usbd_control.c.obj
+ .debug_info    0x0002b2a5     0x1fae CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+ .debug_info    0x0002d253     0x1713 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/class/vendor/vendor_device.c.obj
+ .debug_info    0x0002e966     0x1e8c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/tusb.c.obj
+ .debug_info    0x000307f2     0x283d CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/common/tusb_fifo.c.obj
+ .debug_info    0x0003302f     0x305c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_pio/pio.c.obj
 
-.debug_abbrev   0x00000000     0x9302
- .debug_abbrev  0x00000000      0x687 CMakeFiles/main.dir/main.c.obj
- .debug_abbrev  0x00000687      0x50e CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_abbrev  0x00000b95       0x77 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2040/pico_platform/platform.c.obj
- .debug_abbrev  0x00000c0c      0x12b CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_platform_panic/panic.c.obj
- .debug_abbrev  0x00000d37      0x328 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/common/hardware_claim/claim.c.obj
- .debug_abbrev  0x0000105f      0x20f CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_sync/sync.c.obj
- .debug_abbrev  0x0000126e      0x1bb CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
- .debug_abbrev  0x00001429      0x614 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_irq/irq.c.obj
- .debug_abbrev  0x00001a3d       0xee CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/common/pico_sync/lock_core.c.obj
- .debug_abbrev  0x00001b2b      0x48c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/common/pico_sync/mutex.c.obj
- .debug_abbrev  0x00001fb7      0x1d5 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/common/pico_sync/critical_section.c.obj
- .debug_abbrev  0x0000218c      0x659 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/common/pico_time/time.c.obj
- .debug_abbrev  0x000027e5      0x4f2 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_timer/timer.c.obj
- .debug_abbrev  0x00002cd7      0x4eb CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_abbrev  0x000031c2      0x1d2 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_pll/pll.c.obj
- .debug_abbrev  0x00003394      0x294 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_watchdog/watchdog.c.obj
- .debug_abbrev  0x00003628      0x145 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_ticks/ticks.c.obj
- .debug_abbrev  0x0000376d      0x1bc CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_abbrev  0x00003929      0x11d CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_abbrev  0x00003a46      0x182 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_abbrev  0x00003bc8      0x222 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime_init/runtime_init.c.obj
- .debug_abbrev  0x00003dea      0x2af CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
- .debug_abbrev  0x00004099       0x12 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
- .debug_abbrev  0x000040ab       0x12 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_divider/divider_hardware.S.obj
- .debug_abbrev  0x000040bd       0x12 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
- .debug_abbrev  0x000040cf      0x1bb CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
- .debug_abbrev  0x0000428a       0x14 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
- .debug_abbrev  0x0000429e       0x14 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
- .debug_abbrev  0x000042b2       0x12 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
- .debug_abbrev  0x000042c4      0x19e CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
- .debug_abbrev  0x00004462      0x1ad CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_malloc/malloc.c.obj
- .debug_abbrev  0x0000460f       0x12 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
- .debug_abbrev  0x00004621       0xb8 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
- .debug_abbrev  0x000046d9      0x50c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_printf/printf.c.obj
- .debug_abbrev  0x00004be5       0x12 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_crt0/crt0.S.obj
- .debug_abbrev  0x00004bf7      0x352 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
- .debug_abbrev  0x00004f49      0x5c4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio/stdio.c.obj
- .debug_abbrev  0x0000550d      0x3aa CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
- .debug_abbrev  0x000058b7      0x592 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
- .debug_abbrev  0x00005e49      0x16c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
- .debug_abbrev  0x00005fb5      0x153 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_unique_id/unique_id.c.obj
- .debug_abbrev  0x00006108      0x371 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_flash/flash.c.obj
- .debug_abbrev  0x00006479      0x5d9 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
- .debug_abbrev  0x00006a52      0x480 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
- .debug_abbrev  0x00006ed2      0x7f2 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/device/usbd.c.obj
- .debug_abbrev  0x000076c4      0x38d CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/device/usbd_control.c.obj
- .debug_abbrev  0x00007a51      0x560 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/class/cdc/cdc_device.c.obj
- .debug_abbrev  0x00007fb1      0x48c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/class/vendor/vendor_device.c.obj
- .debug_abbrev  0x0000843d      0x534 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/tusb.c.obj
- .debug_abbrev  0x00008971      0x443 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/common/tusb_fifo.c.obj
- .debug_abbrev  0x00008db4      0x54e CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_pio/pio.c.obj
+.debug_abbrev   0x00000000     0x9325
+ .debug_abbrev  0x00000000      0x6aa CMakeFiles/main.dir/main.c.obj
+ .debug_abbrev  0x000006aa      0x50e CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_abbrev  0x00000bb8       0x77 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2040/pico_platform/platform.c.obj
+ .debug_abbrev  0x00000c2f      0x12b CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_platform_panic/panic.c.obj
+ .debug_abbrev  0x00000d5a      0x328 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/common/hardware_claim/claim.c.obj
+ .debug_abbrev  0x00001082      0x20f CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_abbrev  0x00001291      0x1bb CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
+ .debug_abbrev  0x0000144c      0x614 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_abbrev  0x00001a60       0xee CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/common/pico_sync/lock_core.c.obj
+ .debug_abbrev  0x00001b4e      0x48c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/common/pico_sync/mutex.c.obj
+ .debug_abbrev  0x00001fda      0x1d5 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/common/pico_sync/critical_section.c.obj
+ .debug_abbrev  0x000021af      0x659 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/common/pico_time/time.c.obj
+ .debug_abbrev  0x00002808      0x4f2 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_abbrev  0x00002cfa      0x4eb CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_abbrev  0x000031e5      0x1d2 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_abbrev  0x000033b7      0x294 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_watchdog/watchdog.c.obj
+ .debug_abbrev  0x0000364b      0x145 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_ticks/ticks.c.obj
+ .debug_abbrev  0x00003790      0x1bc CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_abbrev  0x0000394c      0x11d CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_abbrev  0x00003a69      0x182 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_abbrev  0x00003beb      0x222 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+ .debug_abbrev  0x00003e0d      0x2af CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
+ .debug_abbrev  0x000040bc       0x12 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+ .debug_abbrev  0x000040ce       0x12 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_divider/divider_hardware.S.obj
+ .debug_abbrev  0x000040e0       0x12 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+ .debug_abbrev  0x000040f2      0x1bb CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
+ .debug_abbrev  0x000042ad       0x14 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
+ .debug_abbrev  0x000042c1       0x14 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+ .debug_abbrev  0x000042d5       0x12 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
+ .debug_abbrev  0x000042e7      0x19e CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
+ .debug_abbrev  0x00004485      0x1ad CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_malloc/malloc.c.obj
+ .debug_abbrev  0x00004632       0x12 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+ .debug_abbrev  0x00004644       0xb8 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+ .debug_abbrev  0x000046fc      0x50c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_printf/printf.c.obj
+ .debug_abbrev  0x00004c08       0x12 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_crt0/crt0.S.obj
+ .debug_abbrev  0x00004c1a      0x352 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
+ .debug_abbrev  0x00004f6c      0x5c4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio/stdio.c.obj
+ .debug_abbrev  0x00005530      0x3aa CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+ .debug_abbrev  0x000058da      0x592 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+ .debug_abbrev  0x00005e6c      0x16c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+ .debug_abbrev  0x00005fd8      0x153 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_unique_id/unique_id.c.obj
+ .debug_abbrev  0x0000612b      0x371 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_flash/flash.c.obj
+ .debug_abbrev  0x0000649c      0x5d9 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+ .debug_abbrev  0x00006a75      0x480 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+ .debug_abbrev  0x00006ef5      0x7f2 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/device/usbd.c.obj
+ .debug_abbrev  0x000076e7      0x38d CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/device/usbd_control.c.obj
+ .debug_abbrev  0x00007a74      0x560 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+ .debug_abbrev  0x00007fd4      0x48c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/class/vendor/vendor_device.c.obj
+ .debug_abbrev  0x00008460      0x534 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/tusb.c.obj
+ .debug_abbrev  0x00008994      0x443 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/common/tusb_fifo.c.obj
+ .debug_abbrev  0x00008dd7      0x54e CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_pio/pio.c.obj
 
 .debug_loclists
-                0x00000000    0x1f7f3
+                0x00000000    0x1f835
  .debug_loclists
-                0x00000000     0x2ddf CMakeFiles/main.dir/main.c.obj
+                0x00000000     0x2e21 CMakeFiles/main.dir/main.c.obj
  .debug_loclists
-                0x00002ddf     0x1ac0 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x00002e21     0x1ac0 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_gpio/gpio.c.obj
  .debug_loclists
-                0x0000489f       0x53 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2040/pico_platform/platform.c.obj
+                0x000048e1       0x53 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2040/pico_platform/platform.c.obj
  .debug_loclists
-                0x000048f2      0x349 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/common/hardware_claim/claim.c.obj
+                0x00004934      0x349 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/common/hardware_claim/claim.c.obj
  .debug_loclists
-                0x00004c3b      0x108 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_sync/sync.c.obj
+                0x00004c7d      0x108 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_sync/sync.c.obj
  .debug_loclists
-                0x00004d43       0x7d CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
+                0x00004d85       0x7d CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
  .debug_loclists
-                0x00004dc0     0x11ed CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_irq/irq.c.obj
+                0x00004e02     0x11ed CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_irq/irq.c.obj
  .debug_loclists
-                0x00005fad       0x41 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/common/pico_sync/lock_core.c.obj
+                0x00005fef       0x41 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/common/pico_sync/lock_core.c.obj
  .debug_loclists
-                0x00005fee      0xaec CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/common/pico_sync/mutex.c.obj
+                0x00006030      0xaec CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/common/pico_sync/mutex.c.obj
  .debug_loclists
-                0x00006ada       0xb6 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/common/pico_sync/critical_section.c.obj
+                0x00006b1c       0xb6 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/common/pico_sync/critical_section.c.obj
  .debug_loclists
-                0x00006b90     0x27d7 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/common/pico_time/time.c.obj
+                0x00006bd2     0x27d7 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/common/pico_time/time.c.obj
  .debug_loclists
-                0x00009367     0x19f6 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_timer/timer.c.obj
+                0x000093a9     0x19f6 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_timer/timer.c.obj
  .debug_loclists
-                0x0000ad5d     0x2b6f CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x0000ad9f     0x2b6f CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_clocks/clocks.c.obj
  .debug_loclists
-                0x0000d8cc      0x1e0 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_pll/pll.c.obj
+                0x0000d90e      0x1e0 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_pll/pll.c.obj
  .debug_loclists
-                0x0000daac      0x532 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_watchdog/watchdog.c.obj
+                0x0000daee      0x532 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_watchdog/watchdog.c.obj
  .debug_loclists
-                0x0000dfde       0x47 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_ticks/ticks.c.obj
+                0x0000e020       0x47 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_ticks/ticks.c.obj
  .debug_loclists
-                0x0000e025      0x351 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x0000e067      0x351 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_bootrom/bootrom.c.obj
  .debug_loclists
-                0x0000e376       0x48 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_xosc/xosc.c.obj
+                0x0000e3b8       0x48 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_xosc/xosc.c.obj
  .debug_loclists
-                0x0000e3be       0x7e CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime/runtime.c.obj
+                0x0000e400       0x7e CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime/runtime.c.obj
  .debug_loclists
-                0x0000e43c       0xba CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+                0x0000e47e       0xba CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime_init/runtime_init.c.obj
  .debug_loclists
-                0x0000e4f6       0x74 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
+                0x0000e538       0x74 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
  .debug_loclists
-                0x0000e56a       0x35 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
+                0x0000e5ac       0x35 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
  .debug_loclists
-                0x0000e59f       0x4e CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
+                0x0000e5e1       0x4e CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
  .debug_loclists
-                0x0000e5ed      0x206 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_malloc/malloc.c.obj
+                0x0000e62f      0x206 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_malloc/malloc.c.obj
  .debug_loclists
-                0x0000e7f3     0x355f CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_printf/printf.c.obj
+                0x0000e835     0x355f CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_printf/printf.c.obj
  .debug_loclists
-                0x00011d52      0x431 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
+                0x00011d94      0x431 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
  .debug_loclists
-                0x00012183      0xf4f CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio/stdio.c.obj
+                0x000121c5      0xf4f CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio/stdio.c.obj
  .debug_loclists
-                0x000130d2      0x266 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x00013114      0x266 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .debug_loclists
-                0x00013338      0x7cb CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x0001337a      0x7cb CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .debug_loclists
-                0x00013b03       0xed CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x00013b45       0xed CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
  .debug_loclists
-                0x00013bf0      0x3d5 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_unique_id/unique_id.c.obj
+                0x00013c32      0x3d5 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_unique_id/unique_id.c.obj
  .debug_loclists
-                0x00013fc5      0x92a CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_flash/flash.c.obj
+                0x00014007      0x92a CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_flash/flash.c.obj
  .debug_loclists
-                0x000148ef     0x1bde CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x00014931     0x1bde CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
  .debug_loclists
-                0x000164cd      0x719 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x0001650f      0x719 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
  .debug_loclists
-                0x00016be6     0x21ed CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/device/usbd.c.obj
+                0x00016c28     0x21ed CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/device/usbd.c.obj
  .debug_loclists
-                0x00018dd3      0x45e CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/device/usbd_control.c.obj
+                0x00018e15      0x45e CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/device/usbd_control.c.obj
  .debug_loclists
-                0x00019231      0xdc9 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x00019273      0xdc9 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/class/cdc/cdc_device.c.obj
  .debug_loclists
-                0x00019ffa      0x7e5 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/class/vendor/vendor_device.c.obj
+                0x0001a03c      0x7e5 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/class/vendor/vendor_device.c.obj
  .debug_loclists
-                0x0001a7df      0xf80 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/tusb.c.obj
+                0x0001a821      0xf80 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/tusb.c.obj
  .debug_loclists
-                0x0001b75f     0x1fdb CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x0001b7a1     0x1fdb CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/common/tusb_fifo.c.obj
  .debug_loclists
-                0x0001d73a     0x20b9 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_pio/pio.c.obj
+                0x0001d77c     0x20b9 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_pio/pio.c.obj
 
 .debug_aranges  0x00000000     0x16c8
  .debug_aranges
@@ -4605,156 +4607,156 @@ LOAD linker stubs
                 0x000015f0       0xd8 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_pio/pio.c.obj
 
 .debug_rnglists
-                0x00000000     0x50fb
+                0x00000000     0x5113
  .debug_rnglists
-                0x00000000      0x828 CMakeFiles/main.dir/main.c.obj
+                0x00000000      0x840 CMakeFiles/main.dir/main.c.obj
  .debug_rnglists
-                0x00000828      0x5d0 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x00000840      0x5d0 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_gpio/gpio.c.obj
  .debug_rnglists
-                0x00000df8       0x13 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2040/pico_platform/platform.c.obj
+                0x00000e10       0x13 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2040/pico_platform/platform.c.obj
  .debug_rnglists
-                0x00000e0b       0x19 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_platform_panic/panic.c.obj
+                0x00000e23       0x19 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_platform_panic/panic.c.obj
  .debug_rnglists
-                0x00000e24       0xb6 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/common/hardware_claim/claim.c.obj
+                0x00000e3c       0xb6 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/common/hardware_claim/claim.c.obj
  .debug_rnglists
-                0x00000eda       0x58 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_sync/sync.c.obj
+                0x00000ef2       0x58 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_sync/sync.c.obj
  .debug_rnglists
-                0x00000f32       0x3d CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
+                0x00000f4a       0x3d CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
  .debug_rnglists
-                0x00000f6f      0x37d CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_irq/irq.c.obj
+                0x00000f87      0x37d CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_irq/irq.c.obj
  .debug_rnglists
-                0x000012ec       0x1f CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/common/pico_sync/lock_core.c.obj
+                0x00001304       0x1f CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/common/pico_sync/lock_core.c.obj
  .debug_rnglists
-                0x0000130b      0x325 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/common/pico_sync/mutex.c.obj
+                0x00001323      0x325 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/common/pico_sync/mutex.c.obj
  .debug_rnglists
-                0x00001630       0x2b CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/common/pico_sync/critical_section.c.obj
+                0x00001648       0x2b CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/common/pico_sync/critical_section.c.obj
  .debug_rnglists
-                0x0000165b      0x7e2 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/common/pico_time/time.c.obj
+                0x00001673      0x7e2 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/common/pico_time/time.c.obj
  .debug_rnglists
-                0x00001e3d      0x2c6 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_timer/timer.c.obj
+                0x00001e55      0x2c6 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_timer/timer.c.obj
  .debug_rnglists
-                0x00002103      0x5af CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x0000211b      0x5af CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_clocks/clocks.c.obj
  .debug_rnglists
-                0x000026b2       0x5c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_pll/pll.c.obj
+                0x000026ca       0x5c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_pll/pll.c.obj
  .debug_rnglists
-                0x0000270e       0xdf CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_watchdog/watchdog.c.obj
+                0x00002726       0xdf CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_watchdog/watchdog.c.obj
  .debug_rnglists
-                0x000027ed       0x2b CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_ticks/ticks.c.obj
+                0x00002805       0x2b CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_ticks/ticks.c.obj
  .debug_rnglists
-                0x00002818      0x112 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x00002830      0x112 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_bootrom/bootrom.c.obj
  .debug_rnglists
-                0x0000292a       0x1f CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_xosc/xosc.c.obj
+                0x00002942       0x1f CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_xosc/xosc.c.obj
  .debug_rnglists
-                0x00002949       0x3d CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime/runtime.c.obj
+                0x00002961       0x3d CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime/runtime.c.obj
  .debug_rnglists
-                0x00002986       0x49 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+                0x0000299e       0x49 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime_init/runtime_init.c.obj
  .debug_rnglists
-                0x000029cf       0x20 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
+                0x000029e7       0x20 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
  .debug_rnglists
-                0x000029ef       0x43 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+                0x00002a07       0x43 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
  .debug_rnglists
-                0x00002a32       0x2c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_divider/divider_hardware.S.obj
+                0x00002a4a       0x2c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_divider/divider_hardware.S.obj
  .debug_rnglists
-                0x00002a5e       0xf8 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+                0x00002a76       0xf8 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
  .debug_rnglists
-                0x00002b56       0x1a CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
+                0x00002b6e       0x1a CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
  .debug_rnglists
-                0x00002b70       0xe5 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
+                0x00002b88       0xe5 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
  .debug_rnglists
-                0x00002c55       0x19 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
+                0x00002c6d       0x19 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
  .debug_rnglists
-                0x00002c6e       0x49 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_malloc/malloc.c.obj
+                0x00002c86       0x49 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_malloc/malloc.c.obj
  .debug_rnglists
-                0x00002cb7       0x25 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x00002ccf       0x25 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
  .debug_rnglists
-                0x00002cdc      0x2a2 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_printf/printf.c.obj
+                0x00002cf4      0x2a2 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_printf/printf.c.obj
  .debug_rnglists
-                0x00002f7e       0x1b CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_crt0/crt0.S.obj
+                0x00002f96       0x1b CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_crt0/crt0.S.obj
  .debug_rnglists
-                0x00002f99       0x7f CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
+                0x00002fb1       0x7f CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
  .debug_rnglists
-                0x00003018      0x2bb CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio/stdio.c.obj
+                0x00003030      0x2bb CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio/stdio.c.obj
  .debug_rnglists
-                0x000032d3       0x43 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x000032eb       0x43 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .debug_rnglists
-                0x00003316      0x149 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x0000332e      0x149 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .debug_rnglists
-                0x0000345f       0x2b CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x00003477       0x2b CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
  .debug_rnglists
-                0x0000348a       0x70 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_unique_id/unique_id.c.obj
+                0x000034a2       0x70 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_unique_id/unique_id.c.obj
  .debug_rnglists
-                0x000034fa      0x29d CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_flash/flash.c.obj
+                0x00003512      0x29d CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_flash/flash.c.obj
  .debug_rnglists
-                0x00003797      0x425 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x000037af      0x425 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
  .debug_rnglists
-                0x00003bbc       0xe8 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x00003bd4       0xe8 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
  .debug_rnglists
-                0x00003ca4      0x601 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/device/usbd.c.obj
+                0x00003cbc      0x601 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/device/usbd.c.obj
  .debug_rnglists
-                0x000042a5       0x8e CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/device/usbd_control.c.obj
+                0x000042bd       0x8e CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/device/usbd_control.c.obj
  .debug_rnglists
-                0x00004333      0x1ee CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x0000434b      0x1ee CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/class/cdc/cdc_device.c.obj
  .debug_rnglists
-                0x00004521      0x11e CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/class/vendor/vendor_device.c.obj
+                0x00004539      0x11e CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/class/vendor/vendor_device.c.obj
  .debug_rnglists
-                0x0000463f      0x210 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/tusb.c.obj
+                0x00004657      0x210 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/tusb.c.obj
  .debug_rnglists
-                0x0000484f      0x3d3 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x00004867      0x3d3 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/common/tusb_fifo.c.obj
  .debug_rnglists
-                0x00004c22      0x4d9 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_pio/pio.c.obj
+                0x00004c3a      0x4d9 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_pio/pio.c.obj
 
-.debug_line     0x00000000    0x27690
- .debug_line    0x00000000     0x2dc0 CMakeFiles/main.dir/main.c.obj
- .debug_line    0x00002dc0     0x1ca4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_line    0x00004a64      0x262 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2040/pico_platform/platform.c.obj
- .debug_line    0x00004cc6      0x28a CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_platform_panic/panic.c.obj
- .debug_line    0x00004f50      0x8f4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/common/hardware_claim/claim.c.obj
- .debug_line    0x00005844      0x4d8 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_sync/sync.c.obj
- .debug_line    0x00005d1c      0x3ba CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
- .debug_line    0x000060d6     0x1775 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_irq/irq.c.obj
- .debug_line    0x0000784b      0x2e5 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/common/pico_sync/lock_core.c.obj
- .debug_line    0x00007b30     0x1b45 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/common/pico_sync/mutex.c.obj
- .debug_line    0x00009675      0x419 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/common/pico_sync/critical_section.c.obj
- .debug_line    0x00009a8e     0x3556 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/common/pico_time/time.c.obj
- .debug_line    0x0000cfe4     0x1d16 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_timer/timer.c.obj
- .debug_line    0x0000ecfa     0x210c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_line    0x00010e06      0x500 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_pll/pll.c.obj
- .debug_line    0x00011306      0x7b4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_watchdog/watchdog.c.obj
- .debug_line    0x00011aba      0x344 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_ticks/ticks.c.obj
- .debug_line    0x00011dfe      0x460 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_line    0x0001225e      0x34d CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_line    0x000125ab      0x319 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_line    0x000128c4      0x542 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime_init/runtime_init.c.obj
- .debug_line    0x00012e06      0x569 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
- .debug_line    0x0001336f      0x107 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
- .debug_line    0x00013476      0x2a9 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_divider/divider_hardware.S.obj
- .debug_line    0x0001371f      0x44d CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
- .debug_line    0x00013b6c      0x50a CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
- .debug_line    0x00014076       0x5d CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
- .debug_line    0x000140d3       0x61 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
- .debug_line    0x00014134      0x3c6 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
- .debug_line    0x000144fa      0x3c6 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
- .debug_line    0x000148c0      0x2a4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_malloc/malloc.c.obj
- .debug_line    0x00014b64       0x94 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
- .debug_line    0x00014bf8      0x1f5 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
- .debug_line    0x00014ded     0x1d18 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_printf/printf.c.obj
- .debug_line    0x00016b05       0xa5 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_crt0/crt0.S.obj
- .debug_line    0x00016baa      0x870 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
- .debug_line    0x0001741a     0x14d1 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio/stdio.c.obj
- .debug_line    0x000188eb      0x51c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
- .debug_line    0x00018e07     0x11b6 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
- .debug_line    0x00019fbd      0x3c1 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
- .debug_line    0x0001a37e      0x667 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_unique_id/unique_id.c.obj
- .debug_line    0x0001a9e5      0xbec CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_flash/flash.c.obj
- .debug_line    0x0001b5d1     0x1e9f CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
- .debug_line    0x0001d470      0xcbd CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
- .debug_line    0x0001e12d     0x28a6 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/device/usbd.c.obj
- .debug_line    0x000209d3      0x6ef CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/device/usbd_control.c.obj
- .debug_line    0x000210c2     0x10c2 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/class/cdc/cdc_device.c.obj
- .debug_line    0x00022184      0xad3 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/class/vendor/vendor_device.c.obj
- .debug_line    0x00022c57     0x123d CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/tusb.c.obj
- .debug_line    0x00023e94     0x1a67 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/common/tusb_fifo.c.obj
- .debug_line    0x000258fb     0x1d95 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_pio/pio.c.obj
+.debug_line     0x00000000    0x27691
+ .debug_line    0x00000000     0x2dc1 CMakeFiles/main.dir/main.c.obj
+ .debug_line    0x00002dc1     0x1ca4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_line    0x00004a65      0x262 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2040/pico_platform/platform.c.obj
+ .debug_line    0x00004cc7      0x28a CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_platform_panic/panic.c.obj
+ .debug_line    0x00004f51      0x8f4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/common/hardware_claim/claim.c.obj
+ .debug_line    0x00005845      0x4d8 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_line    0x00005d1d      0x3ba CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
+ .debug_line    0x000060d7     0x1775 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_line    0x0000784c      0x2e5 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/common/pico_sync/lock_core.c.obj
+ .debug_line    0x00007b31     0x1b45 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/common/pico_sync/mutex.c.obj
+ .debug_line    0x00009676      0x419 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/common/pico_sync/critical_section.c.obj
+ .debug_line    0x00009a8f     0x3556 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/common/pico_time/time.c.obj
+ .debug_line    0x0000cfe5     0x1d16 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_line    0x0000ecfb     0x210c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_line    0x00010e07      0x500 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_line    0x00011307      0x7b4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_watchdog/watchdog.c.obj
+ .debug_line    0x00011abb      0x344 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_ticks/ticks.c.obj
+ .debug_line    0x00011dff      0x460 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_line    0x0001225f      0x34d CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_line    0x000125ac      0x319 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_line    0x000128c5      0x542 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+ .debug_line    0x00012e07      0x569 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
+ .debug_line    0x00013370      0x107 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+ .debug_line    0x00013477      0x2a9 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_divider/divider_hardware.S.obj
+ .debug_line    0x00013720      0x44d CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+ .debug_line    0x00013b6d      0x50a CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
+ .debug_line    0x00014077       0x5d CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
+ .debug_line    0x000140d4       0x61 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+ .debug_line    0x00014135      0x3c6 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
+ .debug_line    0x000144fb      0x3c6 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
+ .debug_line    0x000148c1      0x2a4 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_malloc/malloc.c.obj
+ .debug_line    0x00014b65       0x94 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+ .debug_line    0x00014bf9      0x1f5 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+ .debug_line    0x00014dee     0x1d18 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_printf/printf.c.obj
+ .debug_line    0x00016b06       0xa5 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_crt0/crt0.S.obj
+ .debug_line    0x00016bab      0x870 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
+ .debug_line    0x0001741b     0x14d1 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio/stdio.c.obj
+ .debug_line    0x000188ec      0x51c CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+ .debug_line    0x00018e08     0x11b6 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+ .debug_line    0x00019fbe      0x3c1 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+ .debug_line    0x0001a37f      0x667 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_unique_id/unique_id.c.obj
+ .debug_line    0x0001a9e6      0xbec CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_flash/flash.c.obj
+ .debug_line    0x0001b5d2     0x1e9f CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+ .debug_line    0x0001d471      0xcbd CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+ .debug_line    0x0001e12e     0x28a6 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/device/usbd.c.obj
+ .debug_line    0x000209d4      0x6ef CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/device/usbd_control.c.obj
+ .debug_line    0x000210c3     0x10c2 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+ .debug_line    0x00022185      0xad3 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/class/vendor/vendor_device.c.obj
+ .debug_line    0x00022c58     0x123d CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/tusb.c.obj
+ .debug_line    0x00023e95     0x1a67 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/common/tusb_fifo.c.obj
+ .debug_line    0x000258fc     0x1d95 CMakeFiles/main.dir/C_/Users/Elias/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_pio/pio.c.obj
 
 .debug_str      0x00000000     0x969b
  .debug_str     0x00000000     0x969b CMakeFiles/main.dir/main.c.obj

@@ -78,7 +78,7 @@ int main() {
         }
 
         // Exibe uma frase com efeito de rolagem na matriz de LEDs
-        exibir_frase_rolagem("VIRTUS CC", cor, pio, sm, intensidade, vel, largura_fonte);
+        exibir_frase_rolagem("PLAYZY.JAR", cor, pio, sm, intensidade, vel, largura_fonte);
 
         sleep_ms(DEBOUNCE_TIME);
     }
