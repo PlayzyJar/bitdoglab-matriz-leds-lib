@@ -1,35 +1,45 @@
-📘 Biblioteca para Matriz de LEDs 5x5 da BitDogLab
-Bem-vindo à biblioteca para controle de matrizes de LEDs 5x5 da BitDogLab! 🎉
-Este projeto foi desenvolvido para facilitar a exibição de textos, animações e efeitos visuais em matrizes de LEDs, especialmente para a Placa de Desenvolvimento BitDogLab com Raspberry Pi Pico W. Com uma interface simples e intuitiva, você pode criar displays incríveis para seus projetos! 🚀
+# 📘 Biblioteca para Matriz de LEDs 5x5 da BitDogLab
 
-🛠️ Recursos
-Exibição de textos com rolagem 📜
-Exiba mensagens com efeito de rolagem, começando com o display vazio e surgindo da direita.
+Bem-vindo à biblioteca para controle de matrizes de LEDs 5x5 da **BitDogLab**! 🎉  
+Este projeto foi desenvolvido para facilitar a exibição de textos, animações e efeitos visuais em matrizes de LEDs, especialmente para a **Placa de Desenvolvimento BitDogLab** com **Raspberry Pi Pico W**. Com uma interface simples e intuitiva, você pode criar displays incríveis para seus projetos! 🚀
 
-Suporte a múltiplas fontes 🔤
-Escolha entre fontes 3x5 e 5x5 para exibir seus textos com diferentes estilos.
+---
 
-Controle de cores RGB 🎨
-Defina cores personalizadas para cada frame ou texto, com suporte a intensidade ajustável.
+## 🛠️ Recursos
 
-Animação de frames 🎬
-Exiba animações pré-definidas, como corações pulsantes, com transições suaves.
+- **Exibição de textos com rolagem** 📜  
+  Exiba mensagens com efeito de rolagem, começando com o display vazio e surgindo da direita.
 
-Integração com BitDogLab 🔌
-Projetada especificamente para a Placa de Desenvolvimento BitDogLab com Raspberry Pi Pico W.
+- **Suporte a múltiplas fontes** 🔤  
+  Escolha entre fontes 3x5 e 5x5 para exibir seus textos com diferentes estilos.
 
-🚀 Como usar
-1. Instalação
+- **Controle de cores RGB** 🎨  
+  Defina cores personalizadas para cada frame ou texto, com suporte a intensidade ajustável.
+
+- **Animação de frames** 🎬  
+  Exiba animações pré-definidas, como corações pulsantes, com transições suaves.
+
+- **Integração com BitDogLab** 🔌  
+  Projetada especificamente para a **Placa de Desenvolvimento BitDogLab** com Raspberry Pi Pico W.
+
+---
+
+## 🚀 Como usar
+
+### 1. Instalação
 Clone este repositório para o seu ambiente de desenvolvimento:
 
+```
 git clone https://github.com/seu-usuario/sua-biblioteca-led.git
+```
 
-3. Configuração
+### 2. Configuração
 Certifique-se de que o SDK da Raspberry Pi Pico está configurado corretamente no seu ambiente. Se ainda não configurou, siga o guia oficial.
 
-4. Exemplo básico
+### 3. Exemplo básico
 Aqui está um exemplo simples para exibir uma mensagem com rolagem na BitDogLab:
 
+```
 #include <stdio.h>
 #include <stdlib.h>
 #include "pico/stdlib.h"
@@ -113,41 +123,50 @@ int main() {
         sleep_ms(DEBOUNCE_TIME);
     }
 }
+```
 
-4. Personalização
-Cores: Altere os valores de RGBColor para criar cores personalizadas.
+### 4. Personalização
+**Cores:** Altere os valores de RGBColor para criar cores personalizadas.
 
-Velocidade: Ajuste o valor de velocidade para controlar a rolagem.
+**Velocidade:** Ajuste o valor de velocidade para controlar a rolagem.
 
-Fontes: Escolha entre fontes 3x5 ou 5x5 com o parâmetro tamanho_matriz.
+**Fontes:** Escolha entre fontes 3x5 ou 5x5 com o parâmetro tamanho_matriz.
 
-🎨 Exemplos de uso
-Exibir uma animação
 
+## 🎨 Exemplos de uso
+
+### Exibir uma animação
+
+```
 exibir_frame(heart_01, cor, pio, sm, 0.1);
 sleep_ms(500);
 exibir_frame(heart_02, cor, pio, sm, 0.2);
 sleep_ms(500);
-Exibir texto estático
+```
 
+### Exibir texto estático
+
+```
 exibir_frame(letra_A, cor, pio, sm, 0.8);
+```
 
+### Exibir texto com rolagem
 
-Exibir texto com rolagem
-
+```
 exibir_frase_rolagem("OLA MUNDO!", cor, pio, sm, 0.8, 150, 5);
+```
 
+## 🧩 Estrutura do projeto
 
-🧩 Estrutura do projeto
-led_functions.h: Biblioteca principal com funções para controle da matriz de LEDs.
+**led_functions.h:** Biblioteca principal com funções para controle da matriz de LEDs.
 
-frames_5x5.h e frames_3x5.h: Frames pré-definidos para animações e fontes.
+**frames_5x5.h e frames_3x5.h:** Frames pré-definidos para animações e fontes.
 
-main.c: Exemplo de uso da biblioteca.
+**main.c:** Exemplo de uso da biblioteca.
 
-init_GPIO.h: Configuração dos pinos GPIO da BitDogLab.
+**init_GPIO.h:** Configuração dos pinos GPIO da BitDogLab.
 
-🤝 Contribuição
+## 🤝 Contribuição
 Contribuições são bem-vindas! Se você tem ideias para melhorar esta biblioteca, siga os passos abaixo:
 
 Faça um fork do repositório.
@@ -164,9 +183,7 @@ Abra um pull request.
 Este projeto está licenciado sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
 
 🙌 Créditos
-Desenvolvido por PlayzyJar (Carlos Elias) 🚀
-
-Inspirado em projetos open-source da comunidade Raspberry Pi Pico.
+Desenvolvido por PlayzyJar 🚀
 
 Compatível com a Placa de Desenvolvimento BitDogLab.
 
