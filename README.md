@@ -164,7 +164,7 @@ Abra um pull request.
 Este projeto está licenciado sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
 
 🙌 Créditos
-Desenvolvido por [Seu Nome] 🚀
+Desenvolvido por PlayzyJar (Carlos Elias) 🚀
 
 Inspirado em projetos open-source da comunidade Raspberry Pi Pico.
 
