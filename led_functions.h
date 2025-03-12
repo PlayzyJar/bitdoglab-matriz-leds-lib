@@ -7,7 +7,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include "pico/stdlib.h"
-#include "matriz_teste02.pio.h"
+#include "main.pio.h"
 #include "init_GPIO.h"
 #include "pico/bootrom.h"
 #include "hardware/pio.h"
@@ -19,23 +19,39 @@
 #define MAX_COLUNAS (5 * MAX_FRASE_TAMANHO) // Número máximo de colunas na frase concatenada
 
 // Estrutura para representar uma cor RGB
-typedef struct
-{
+typedef struct {
     double r; // Vermelho (0.0 a 1.0)
     double g; // Verde (0.0 a 1.0)
     double b; // Azul (0.0 a 1.0)
 } RGBColor;
 
-// enum com as letras
+// Enumeração para mapear caracteres
 typedef enum {
     CHAR_A, CHAR_B, CHAR_C, CHAR_D, CHAR_E, CHAR_F, CHAR_G, CHAR_H, CHAR_I, CHAR_J,
     CHAR_K, CHAR_L, CHAR_M, CHAR_N, CHAR_O, CHAR_P, CHAR_Q, CHAR_R, CHAR_S, CHAR_T,
     CHAR_U, CHAR_V, CHAR_W, CHAR_X, CHAR_Y, CHAR_Z, CHAR_SPACE, CHAR_EXCLAMATION, CHAR_PONTO
 } Caractere;
 
-// Função para codificar a cor no formato G | R | B
-uint32_t matriz_rgb(double b, double r, double g)
-{
+// Declarações das funções
+uint32_t matriz_rgb(double b, double r, double g);
+void converterCorParaEscala(RGBColor *cor);
+int mapear_indice_para_posicao(int indice);
+void setar_led(int index, RGBColor cor, PIO pio, uint sm);
+double **criar_frase_da_string(const char *texto, int tamanho_matriz);
+void exibir_frame(double *frame, RGBColor cor, PIO pio, uint sm, double intensidade);
+void concatenar_frase(double *frase[], int tamanho_frase, double frase_concatenada[5][MAX_COLUNAS]);
+void exibir_frase_rolagem(const char *texto, RGBColor cor, PIO pio, uint sm, double intensidade, int velocidade, int tamanho_matriz);
+
+// Implementações das funções
+
+/**
+ * Codifica a cor no formato G | R | B.
+ * @param b Componente azul (0.0 a 1.0).
+ * @param r Componente vermelho (0.0 a 1.0).
+ * @param g Componente verde (0.0 a 1.0).
+ * @return Cor codificada no formato G | R | B.
+ */
+uint32_t matriz_rgb(double b, double r, double g) {
     unsigned char R, G, B;
     R = r * 255;                             // Converte vermelho para 0-255
     G = g * 255;                             // Converte verde para 0-255
@@ -43,60 +59,66 @@ uint32_t matriz_rgb(double b, double r, double g)
     return (G << 24) | (R << 16) | (B << 8); // Codifica no formato G | R | B
 }
 
-// Função para converter a função a escala de 0 à 255 para 0.0 à 1.0
-void converterCorParaEscala(RGBColor *cor)
-{
+/**
+ * Converte a cor de uma escala de 0-255 para 0.0-1.0.
+ * @param cor Ponteiro para a estrutura RGBColor a ser convertida.
+ */
+void converterCorParaEscala(RGBColor *cor) {
     // Impede que o número ultrapasse o intervalo [0, 255]
-    if (cor->r > 255)
-        cor->r = 255;
-    if (cor->b > 255)
-        cor->b = 255;
-    if (cor->g > 255)
-        cor->g = 255;
+    if (cor->r > 255) cor->r = 255;
+    if (cor->b > 255) cor->b = 255;
+    if (cor->g > 255) cor->g = 255;
 
-    if (cor->r < 0)
-        cor->r = 0;
-    if (cor->b < 0)
-        cor->b = 0;
-    if (cor->g < 0)
-        cor->g = 0;
+    if (cor->r < 0) cor->r = 0;
+    if (cor->b < 0) cor->b = 0;
+    if (cor->g < 0) cor->g = 0;
 
-    // cálculo e conversão das escalas para o intervalo [0.0, 1.0]
+    // Converte para o intervalo [0.0, 1.0]
     cor->r = cor->r / 255.0;
     cor->b = cor->b / 255.0;
     cor->g = cor->g / 255.0;
 }
 
-// Função para mapear o índice do array para a posição física na matriz
-int mapear_indice_para_posicao(int indice)
-{
+/**
+ * Mapeia o índice lógico para a posição física na matriz de LEDs.
+ * @param indice Índice lógico do LED.
+ * @return Índice físico correspondente na matriz.
+ */
+int mapear_indice_para_posicao(int indice) {
     int linha = 4 - (indice / 5);  // Linha (0 a 4, de baixo para cima)
     int coluna = 4 - (indice % 5); // Coluna (0 a 4, invertida para corrigir o espelhamento)
 
     // Inverte a coluna para linhas ímpares (1 e 3)
-    if (linha == 1 || linha == 3)
-    {
+    if (linha == 1 || linha == 3) {
         coluna = 4 - coluna;
     }
 
     return (linha * 5) + coluna; // Retorna o índice físico
 }
 
-// Função para definir a cor de um LED específico
-void setar_led(int index, RGBColor cor, PIO pio, uint sm)
-{
-    // Usa a função matriz_rgb para codificar a cor
-    uint32_t valor_led = matriz_rgb(cor.b, cor.r, cor.g);
-
-    // Envia o valor para o LED
-    pio_sm_put_blocking(pio, sm, valor_led);
+/**
+ * Define a cor de um LED específico na matriz.
+ * @param index Índice do LED.
+ * @param cor Cor a ser definida.
+ * @param pio Instância do PIO.
+ * @param sm Estado da máquina de estados (state machine).
+ */
+void setar_led(int index, RGBColor cor, PIO pio, uint sm) {
+    uint32_t valor_led = matriz_rgb(cor.b, cor.r, cor.g); // Codifica a cor
+    pio_sm_put_blocking(pio, sm, valor_led);             // Envia o valor para o LED
 }
 
+/**
+ * Cria uma lista de frames a partir de uma string.
+ * @param texto String de entrada.
+ * @param tamanho_matriz Tamanho da matriz (3 ou 5).
+ * @return Ponteiro para a lista de frames.
+ */
 double **criar_frase_da_string(const char *texto, int tamanho_matriz) {
     // Define o número máximo de caracteres na frase
     int max_caracteres = strlen(texto);
-    // Cada frase é seguida por dois espaços, então o tamanho da lista de frames é (max_caracteres + 2)
-    double **frase = (double **)malloc((max_caracteres + 2) * sizeof(double *));
+    // Cada frase é seguida por um espaço, então o tamanho da lista de frames é (max_caracteres + 1)
+    double **frase = (double **)malloc((max_caracteres + 1) * sizeof(double *));
 
     // Define qual fonte usar (3x5 ou 5x5)
     double **fonte = (tamanho_matriz == 3) ? letras_3x5 : letras_5x5;
@@ -140,26 +162,28 @@ double **criar_frase_da_string(const char *texto, int tamanho_matriz) {
         }
     }
 
-    // Adiciona dois espaços em branco no final da frase
+    // Adiciona um espaço em branco no final da frase
     frase[max_caracteres] = fonte[CHAR_SPACE];
-    frase[max_caracteres + 1] = fonte[CHAR_SPACE];
 
     return frase;
 }
 
-// Função para exibir um frame na matriz de LEDs com controle de intensidade
-void exibir_frame(double *frame, RGBColor cor, PIO pio, uint sm, double intensidade)
-{
+/**
+ * Exibe um frame na matriz de LEDs.
+ * @param frame Frame a ser exibido.
+ * @param cor Cor do frame.
+ * @param pio Instância do PIO.
+ * @param sm Estado da máquina de estados.
+ * @param intensidade Intensidade do frame (0.0 a 1.0).
+ */
+void exibir_frame(double *frame, RGBColor cor, PIO pio, uint sm, double intensidade) {
     // Garante que a intensidade esteja no intervalo [0.0, 1.0]
-    if (intensidade < 0.0)
-        intensidade = 0.0;
-    if (intensidade > 1.0)
-        intensidade = 1.0;
+    if (intensidade < 0.0) intensidade = 0.0;
+    if (intensidade > 1.0) intensidade = 1.0;
 
     converterCorParaEscala(&cor);
 
-    for (int i = 0; i < NUM_LEDS; i++)
-    {
+    for (int i = 0; i < NUM_LEDS; i++) {
         // Mapeia o índice lógico para o índice físico
         int indice_fisico = mapear_indice_para_posicao(i);
 
@@ -175,21 +199,32 @@ void exibir_frame(double *frame, RGBColor cor, PIO pio, uint sm, double intensid
     }
 }
 
-// Função para concatenar os frames das letras da frase
-void concatenar_frase(double *frase[], int tamanho_frase, double frase_concatenada[5][MAX_COLUNAS])
-{
-    for (int i = 0; i < tamanho_frase; i++)
-    {
-        for (int linha = 0; linha < 5; linha++)
-        {
-            for (int coluna = 0; coluna < 5; coluna++)
-            {
+/**
+ * Concatena os frames das letras da frase.
+ * @param frase Lista de frames das letras.
+ * @param tamanho_frase Tamanho da frase.
+ * @param frase_concatenada Matriz para armazenar a frase concatenada.
+ */
+void concatenar_frase(double *frase[], int tamanho_frase, double frase_concatenada[5][MAX_COLUNAS]) {
+    for (int i = 0; i < tamanho_frase; i++) {
+        for (int linha = 0; linha < 5; linha++) {
+            for (int coluna = 0; coluna < 5; coluna++) {
                 frase_concatenada[linha][(i * 5) + coluna] = frase[i][linha * 5 + coluna];
             }
         }
     }
 }
 
+/**
+ * Exibe uma frase com efeito de rolagem na matriz de LEDs, começando com o display vazio.
+ * @param texto Texto a ser exibido.
+ * @param cor Cor do texto.
+ * @param pio Instância do PIO.
+ * @param sm Estado da máquina de estados.
+ * @param intensidade Intensidade do texto.
+ * @param velocidade Velocidade da rolagem.
+ * @param tamanho_matriz Tamanho da matriz (3 ou 5).
+ */
 void exibir_frase_rolagem(const char *texto, RGBColor cor, PIO pio, uint sm, double intensidade, int velocidade, int tamanho_matriz) {
     // Cria a lista de frames a partir da string
     double **frase = criar_frase_da_string(texto, tamanho_matriz);
@@ -214,25 +249,25 @@ void exibir_frase_rolagem(const char *texto, RGBColor cor, PIO pio, uint sm, dou
         }
     }
 
-    int posicao_inicial = 0; // Posição inicial da "janela" de rolagem
-
-    while (1) {
+    // Exibe a frase com rolagem, começando com o display vazio
+    for (int posicao_inicial = -5; posicao_inicial < largura_frase; posicao_inicial++) {
         // Cria um frame temporário para exibir na matriz
         double frame[5][5] = {0}; // Sempre 5x5 para exibição
 
         // Preenche o frame com a "janela" atual da frase concatenada
         for (int linha = 0; linha < 5; linha++) {
             for (int coluna = 0; coluna < 5; coluna++) {
-                int coluna_frase = (posicao_inicial + coluna) % largura_frase; // Calcula a coluna na frase concatenada
-                frame[linha][coluna] = frase_concatenada[linha][coluna_frase];
+                int coluna_frase = posicao_inicial + coluna; // Calcula a coluna na frase concatenada
+                if (coluna_frase >= 0 && coluna_frase < largura_frase) {
+                    frame[linha][coluna] = frase_concatenada[linha][coluna_frase];
+                } else {
+                    frame[linha][coluna] = 0; // Fora dos limites, preenche com 0 (LEDs apagados)
+                }
             }
         }
 
         // Exibe o frame na matriz de LEDs
         exibir_frame((double *)frame, cor, pio, sm, intensidade);
-
-        // Atualiza a posição inicial para a próxima iteração
-        posicao_inicial = (posicao_inicial + 1) % largura_frase;
 
         // Verifica se o botão foi pressionado (exemplo)
         if (!gpio_get(JSTICK)) {

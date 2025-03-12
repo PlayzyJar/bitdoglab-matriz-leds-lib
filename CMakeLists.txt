@@ -28,40 +28,40 @@ set(PICO_BOARD pico_w CACHE STRING "Board type")
 # Pull in Raspberry Pi Pico SDK (must be before project)
 include(pico_sdk_import.cmake)
 
-project(matriz_teste02 C CXX ASM)
+project(main C CXX ASM)
 
 # Initialise the Raspberry Pi Pico SDK
 pico_sdk_init()
 
 # Add executable. Default name is the project name, version 0.1
 
-add_executable(matriz_teste02 matriz_teste02.c )
+add_executable(main main.c )
 
-pico_set_program_name(matriz_teste02 "matriz_teste02")
-pico_set_program_version(matriz_teste02 "0.1")
+pico_set_program_name(main "main")
+pico_set_program_version(main "0.1")
 
 # Modify the below lines to enable/disable output over UART/USB
-pico_enable_stdio_uart(matriz_teste02 0)
-pico_enable_stdio_usb(matriz_teste02 1)
+pico_enable_stdio_uart(main 0)
+pico_enable_stdio_usb(main 1)
 
-pico_generate_pio_header(matriz_teste02 ${CMAKE_CURRENT_LIST_DIR}/matriz_teste02.pio)
+pico_generate_pio_header(main ${CMAKE_CURRENT_LIST_DIR}/main.pio)
 
 # Add the standard library to the build
-target_link_libraries(matriz_teste02
+target_link_libraries(main
         pico_stdlib
         hardware_pio
         hardware_adc
         pico_bootrom)
 
 # Add the standard include files to the build
-target_include_directories(matriz_teste02 PRIVATE
+target_include_directories(main PRIVATE
     ${CMAKE_CURRENT_LIST_DIR}
 )
 
 # Add any user requested libraries
-target_link_libraries(matriz_teste02 
+target_link_libraries(main 
         
         )
 
-pico_add_extra_outputs(matriz_teste02)
+pico_add_extra_outputs(main)
 

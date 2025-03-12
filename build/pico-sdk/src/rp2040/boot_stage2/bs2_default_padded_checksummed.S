@@ -1,4 +1,4 @@
-// Padded and checksummed version of: C:/Users/Elias/OneDrive/Documentos/Projeto BigDogLab/Mexendo na Matriz/matriz_teste02/build/pico-sdk/src/rp2040/boot_stage2/bs2_default.bin
+// Padded and checksummed version of: C:/Users/Elias/OneDrive/Documentos/Projeto BigDogLab/Mexendo na Matriz/Matriz_Leds_lib-byPlayzyJar/build/pico-sdk/src/rp2040/boot_stage2/bs2_default.bin
 
 .cpu cortex-m0plus
 .thumb

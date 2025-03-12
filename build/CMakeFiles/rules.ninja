@@ -6,7 +6,7 @@
 # It is included in the main 'build.ninja'.
 
 # =============================================================================
-# Project: matriz_teste02
+# Project: main
 # Configurations: Release
 # =============================================================================
 # =============================================================================
@@ -14,7 +14,7 @@
 #############################################
 # Rule for compiling ASM files.
 
-rule ASM_COMPILER__matriz_teste02_unscanned_Release
+rule ASM_COMPILER__main_unscanned_Release
   depfile = $DEP_FILE
   deps = gcc
   command = ${LAUNCHER}${CODE_CHECK}C:\Users\Elias\.pico-sdk\toolchain\14_2_Rel1\bin\arm-none-eabi-gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out   -c $in
@@ -24,7 +24,7 @@ rule ASM_COMPILER__matriz_teste02_unscanned_Release
 #############################################
 # Rule for compiling C files.
 
-rule C_COMPILER__matriz_teste02_unscanned_Release
+rule C_COMPILER__main_unscanned_Release
   depfile = $DEP_FILE
   deps = gcc
   command = ${LAUNCHER}${CODE_CHECK}C:\Users\Elias\.pico-sdk\toolchain\14_2_Rel1\bin\arm-none-eabi-gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
@@ -34,7 +34,7 @@ rule C_COMPILER__matriz_teste02_unscanned_Release
 #############################################
 # Rule for compiling CXX files.
 
-rule CXX_COMPILER__matriz_teste02_unscanned_Release
+rule CXX_COMPILER__main_unscanned_Release
   depfile = $DEP_FILE
   deps = gcc
   command = ${LAUNCHER}${CODE_CHECK}C:\Users\Elias\.pico-sdk\toolchain\14_2_Rel1\bin\arm-none-eabi-g++.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
@@ -44,7 +44,7 @@ rule CXX_COMPILER__matriz_teste02_unscanned_Release
 #############################################
 # Rule for linking CXX executable.
 
-rule CXX_EXECUTABLE_LINKER__matriz_teste02_Release
+rule CXX_EXECUTABLE_LINKER__main_Release
   command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\Users\Elias\.pico-sdk\toolchain\14_2_Rel1\bin\arm-none-eabi-g++.exe $FLAGS -Wl,--build-id=none $LINK_FLAGS @$RSP_FILE -o $TARGET_FILE && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   rspfile = $RSP_FILE
@@ -93,7 +93,7 @@ rule ASM_COMPILER__bs2_default_library_unscanned_Release
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = C:\Users\Elias\.pico-sdk\cmake\v3.31.5\bin\cmake.exe --regenerate-during-build -S"C:\Users\Elias\OneDrive\Documentos\Projeto BigDogLab\Mexendo na Matriz\matriz_teste02" -B"C:\Users\Elias\OneDrive\Documentos\Projeto BigDogLab\Mexendo na Matriz\matriz_teste02\build"
+  command = C:\Users\Elias\.pico-sdk\cmake\v3.31.5\bin\cmake.exe --regenerate-during-build -S"C:\Users\Elias\OneDrive\Documentos\Projeto BigDogLab\Mexendo na Matriz\Matriz_Leds_lib-byPlayzyJar" -B"C:\Users\Elias\OneDrive\Documentos\Projeto BigDogLab\Mexendo na Matriz\Matriz_Leds_lib-byPlayzyJar\build"
   description = Re-running CMake...
   generator = 1
 
