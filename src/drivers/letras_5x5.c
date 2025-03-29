@@ -1,10 +1,4 @@
-#ifndef LETRAS_5X5_H
-#define LETRAS_5X5_H
-
-#include "frames_5x5.h"
-#include "pico/stdlib.h"
-
-#define NUM_LEDS 25
+#include "inc/drivers/letras_5x5.h"
 
 // Definição das letras (A-Z)
 double f_A[NUM_LEDS] = 
@@ -267,4 +261,3 @@ double *letras_5x5[] = {
     f_Y, f_Z, f_01, f_exclamation, f_ponto // Espaço, exclamação e ponto
 };
 
-#endif
