@@ -6,11 +6,6 @@
 #define OUT_PIN 7
 #define JSTICK 22
 
-void init_GPIO()
-{
-    gpio_init(JSTICK);
-    gpio_set_dir(JSTICK, GPIO_IN);
-    gpio_pull_up(JSTICK);
-}
+void init_GPIO();
 
 #endif

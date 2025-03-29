@@ -1,10 +1,4 @@
-#ifndef LETRAS_3X5_H
-#define LETRAS_3X5_H
-
-#include "frames_3x5.h"
-#include "pico/stdlib.h"
-
-#define NUM_LEDS_FINO 15
+#include "inc/drivers/letras_3x5.h"
 
 // Letra A
 double f_A_fino[NUM_LEDS_FINO] = {
@@ -265,5 +259,3 @@ double *letras_3x5[] = {
     f_S_fino, f_T_fino, f_U_fino, f_V_fino, f_W_fino, f_X_fino,
     f_Y_fino, f_Z_fino, f_01_fino, f_exclamation_fino, f_ponto_fino // Espaço, exclamação e ponto
 };
-
-#endif
